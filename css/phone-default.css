@@ -1,0 +1,80 @@
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-----BODY -----*/
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+
+/*-----CONTAINER -----*/
+#container {
+  background-color: #fff;   /*becomes the nav background color*/
+  min-width: 320px;
+  max-width: 1140px;
+}
+
+/*-----HEADER -----*/
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 1.8em;
+}
+header h2 {
+  font-size: 1.6em;
+}
+
+
+
+/*-----NAVigation -----*/
+nav {
+  text-align: center;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0;
+}
+nav ul li a {
+  padding: 0 5px;
+  background-color:#ccc;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color:#999;
+}
+
+/*--- Responsive Nav - Uses jQuery -------*/
+#responsive-nav {
+cursor: pointer;
+color: black;
+font-family: arial;
+font-weight: bold;
+padding: 5px 0;
+}
+
+
+
+/*-----CONTENT -----*/
+#content {
+  min-height: 5em;
+}
+
+
+
+/*----- FOOTER -----*/
+footer {
+  clear: both;
+  text-align: center;
+  padding: 1em;
+}
