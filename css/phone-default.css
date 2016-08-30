@@ -4,29 +4,52 @@ html {-webkit-text-size-adjust: none; }
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*----------- clearfix hack --------------------*/
+.clearfix{ overflow: auto; }
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 /*-----BODY -----*/
 body {
   font-size: 16px;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 /*-----CONTAINER -----*/
 #container {
-  background-color: #fff;   /*becomes the nav background color*/
+  background-color: rgba(34,34,34, .95);   /*becomes the nav background color*/
   min-width: 320px;
   max-width: 1140px;
+  color: white;
 }
+
 
 /*-----HEADER -----*/
 header {
   text-align: center;
+  background-image: url('/images/empire-state.jpg');
+  background-size: cover;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 header h1 {
-  font-size: 1.8em;
+  letter-spacing: .2em;
+  font-size: 2em;
+  line-height: 2.25em;
 }
 header h2 {
-  font-size: 1.6em;
+  font-size: .8em;
+  color: #aaa;
+  letter-spacing: .25em;
+  margin: 0 10%;
 }
 
 
@@ -47,17 +70,17 @@ nav ul li {
 }
 nav ul li a {
   padding: 0 5px;
-  background-color:#ccc;
   text-decoration: none;
+  color: white;
 }
 nav ul li a:hover {
-  background-color:#999;
+  color: rgba(255, 255, 255, .8);
 }
 
 /*--- Responsive Nav - Uses jQuery -------*/
 #responsive-nav {
 cursor: pointer;
-color: black;
+color: white;
 font-family: arial;
 font-weight: bold;
 padding: 5px 0;
@@ -69,6 +92,49 @@ padding: 5px 0;
 #content {
   min-height: 5em;
 }
+#content h1{
+  text-align: center;
+  font-size: 1.2em;
+  color: rgba(255,255,255, .65);
+}
+
+/*----- Images Inside Home Page Content Section ------*/
+.proj-wrapper h2{
+  color: #222;
+  font-size: 1.4em;
+  margin-left: 25%;
+  margin-top: 1em;
+}
+.proj-wrapper{
+  width: 50%;
+  background-color:  rgba(255,255,255, .95);
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  text-align: center;
+  border-width:5px;
+  border-style:ridge;
+  border-color: rgba(45,45,45, .8);
+}
+
+.proj-wrapper#ux-design{
+  background-image: url('/images/bandmeeter450px.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 15vh;
+  width: 96%;
+  margin-top: 2em;
+
+}
+.proj-wrapper#web-dev{
+  background-image: url('/images/TakeMeHome450px.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 15vh;
+  width: 96%;
+}
+
+
 
 
 
@@ -78,3 +144,26 @@ footer {
   text-align: center;
   padding: 1em;
 }
+
+/*------ IMAGES --------*/
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*------- VISIBILITY -----------*/
+
+.visible{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+
+
+
