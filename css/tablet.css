@@ -5,15 +5,30 @@
 
 
 /*-----CONTAINER -----*/
-  #container {}
+  #container {
+    min-width: 600px;
+  }
 
 
 
 
 /*-----HEADER -----*/
 
-
-
+header{
+  padding-top: 5.5em;
+  padding-bottom: 6em;
+}
+div#container header hgroup h1{
+  border: 2px solid white;
+  margin-left: 10%;
+  margin-right: 10%;
+  letter-spacing: .5em;
+  line-height: 3em;
+}
+div#container header hgroup h2{
+  font-size: 1em;
+  letter-spacing: .3em;
+}
 
 /*-----NAVigation -----*/
   nav ul li { }
@@ -22,6 +37,68 @@
 
 
 /*-----CONTENT -----*/
+
+#content{
+  min-height: 5em;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#content h1{
+  font-size: 1.4em;
+  margin-bottom: 1.5em;
+  padding-top: .5em;
+}
+
+/*----------------Show the Tablet Projects View on Home Page ---------*/
+.tablet-wrapper{
+  display: block;
+  text-align: center;
+  color: #222;
+}
+.tablet-wrapper.tablet-proj-wrapper img{
+  width: 100%;
+  height: auto;
+}
+
+.tablet-proj-wrapper{
+  padding-right: 1em;
+  padding-left: 1em;
+  width: 33.3333%;
+  background: white;
+  float: left;
+  border-right: 9px solid rgba(43,43,43,.9);
+  border-top: 1px solid rgba(43,43,43,.9);
+  border-bottom: 1px solid rgba(43,43,43,.9);
+}
+.tablet-proj-wrapper h2{
+  margin-bottom: -.5em;
+  font-size: 1.2em;
+}
+.tablet-proj-wrapper p{
+  margin-top: -.5em;
+  padding-bottom: .5em;
+}
+div.view-all-link h4{
+  padding-top: 40%;
+  padding-bottom: 1em;
+}
+
+div.view-all-link a{
+  font-size: .8em;
+  color: white;
+  text-decoration: none;
+  letter-spacing: .2em;
+  border: 3px outset rgba(255,255,255,.5);
+  line-height: 1.5em;
+  padding: .3em;
+  background: rgba(0,0,0,.6);
+  transition: background ease-in-out .5s;
+}
+div.view-all-link a:hover{
+  background: rgba(255,255,255,.6);
+  color: #222;
+}
 
 /*-----------------Hide the Mobile Projects View----------------------*/
 .mobile-wrapper{

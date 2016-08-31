@@ -55,8 +55,11 @@ header h2 {
 
 
 /*-----NAVigation -----*/
+
 nav {
   text-align: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 nav ul{
   padding: 0;
@@ -81,9 +84,12 @@ nav ul li a:hover {
 #responsive-nav {
 cursor: pointer;
 color: white;
-font-family: arial;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
 font-weight: bold;
 padding: 5px 0;
+padding-top: 1em;
+padding-bottom: 1em;
 }
 
 
@@ -135,11 +141,13 @@ padding: 5px 0;
 }
 
 
-
+/*----- hide tablet projects on home screen -------*/
+.tablet-wrapper{ display: none; }
 
 
 /*----- FOOTER -----*/
 footer {
+  background: rgba(0,0,0,.9);
   clear: both;
   text-align: center;
   padding: 1em;
