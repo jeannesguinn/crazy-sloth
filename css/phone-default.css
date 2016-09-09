@@ -215,6 +215,14 @@ div#bandmeeter.ux-proj-wrapper img{
   margin-bottom: -9%;
 }
 
+/*----- devProjects.html styles--------*/
+div#crowdCare-mobile.ux-proj-wrapper{
+  margin-top: .75em;
+}
+div#spaceBar-mobile.ux-proj-wrapper{
+  margin-top: .75em;
+}
+
 /*----- hide tablet projects on home screen -------*/
 .tablet-wrapper{ display: none; }
 
