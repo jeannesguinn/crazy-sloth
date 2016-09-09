@@ -22,7 +22,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
+h1, h2, h3, h4, h5{
+    font-family: 'Raleway', sans-serif;
+}
 /*-----CONTAINER -----*/
 #container {
   background-color: rgba(34,34,34, .95);   /*becomes the nav background color*/
@@ -44,6 +46,7 @@ header h1 {
   letter-spacing: .2em;
   font-size: 2em;
   line-height: 2.25em;
+
 }
 header h2 {
   font-size: .8em;
@@ -57,6 +60,7 @@ header h2 {
 /*-----NAVigation -----*/
 
 nav {
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -95,27 +99,29 @@ padding-bottom: 1em;
 
 
 /*-----CONTENT -----*/
-#content {
+div#content {
   min-height: 5em;
 }
-#content h1{
+div#content h1{
+  padding-top: .6em;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  letter-spacing: .2em;
   color: rgba(255,255,255, .65);
 }
 
 /*----- Images Inside Home Page Content Section ------*/
 .proj-wrapper h2{
   color: #222;
-  font-size: 1.4em;
+  font-size: 1.25em;
   margin-left: 25%;
-  margin-top: 1em;
+  margin-top: 1.4em;
 }
 .proj-wrapper{
   width: 50%;
   background-color:  rgba(255,255,255, .95);
   margin-left: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   margin-right: 2%;
   text-align: center;
   border-width:5px;
@@ -138,8 +144,61 @@ padding-bottom: 1em;
   background-repeat: no-repeat;
   min-height: 15vh;
   width: 96%;
+  margin-bottom: 2.5em;
 }
 
+div#about-mobile.about-wrapper{
+  background-color: white;
+}
+div#about-mobile.about-wrapper p{
+  color: #222;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-bottom: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.mobile-wrapper h1{
+  background-color: white;
+}
+div#content div.mobile-wrapper h1{
+  color: #222;
+  margin-bottom: -.2em;
+  padding-bottom: .8em;
+  padding-top: 1.6em;
+}
+div.about-img img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 2em;
+}
+div#content div.mobile-wrapper h1#contact-mobile{
+  margin-top: 0;
+  background-color: rgba(34,34,34, .95);
+  color: rgba(255,255,255,.65);
+}
+div#contact-mobile.contact-wrapper p{
+  text-align: center;
+  font-size: 1.1em;
+  background-color: transparent;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  letter-spacing: .15em;
+}
+div#contact-mobile.contact-wrapper p span{
+  text-transform: uppercase;
+}
+
+/*----- UX Projects Page ---------*/
+div#trueSpirit.ux-proj-wrapper{
+  text-align: center;
+  width: 96%;
+  margin-left: 2%;
+  background: white;
+  color: #999;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
 
 /*----- hide tablet projects on home screen -------*/
 .tablet-wrapper{ display: none; }
@@ -157,6 +216,22 @@ footer {
 img{
   width: 100%;
   height: auto;
+}
+
+/*-------SOCIAL ICONS ----------*/
+.socicon-github, .socicon-linkedin, .socicon-mail{
+  font-size: 1.6em;
+  color: white;
+}
+div#contact-mobile.contact-wrapper p {
+  float: left;
+  width: 33.3333%;
+}
+div#contact-mobile.contact-wrapper p a{
+  text-decoration: none;
+}
+div#contact-mobile.contact-wrapper p a:hover{
+  color: rgba(255, 255, 255, .7);
 }
 
 /*------- VISIBILITY -----------*/

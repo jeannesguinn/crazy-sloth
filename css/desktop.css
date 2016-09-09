@@ -3,25 +3,88 @@
   body {}
 
 /*-----WRAPPER -----*/
-  #wrapper {}
+  #wrapper {
+
+  }
 
 /*-----CONTAINER -----*/
   #container {
-    margin: 2em auto;
-    border: 1px solid #888;
+    margin: 0 auto;
+    border: none;
+    min-width: 1141px;
+    max-width: 2500px;
   }
 
 /*-----HEADER -----*/
-
+header{
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+div#container header hgroup h1{
+  font-size: 3.4em;
+  line-height: 3em;
+  margin-left:3.5em;
+  margin-right:3.5em;
+  opacity: .55;
+}
+div#container header hgroup h2{
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: .5em;
+  opacity: .7;
+}
 
 
 /*-----NAVigation -----*/
+nav{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
 
+}
+nav ul{
+  text-transform: uppercase;
+  font-size: 1.0em;
+  letter-spacing: .2em;
+}
+nav ul li{
+  margin-right: 1em;
+}
 
 
 /*-----CONTENT -----*/
+#content{
+  min-height: 5em;
+  width: 90%;
+  margin-left: 5%;
+}
+#content h1{
+  letter-spacing: .35em;
+  font-size: 1.3em;
+  padding-top: .8em;
+}
 
 
+/*------PROJECT SPECIFIC DIVS----------------*/
+.tablet-proj-wrapper.clearfix{
+  transition: opacity ease-in .4s;
+  padding: 0;
+}
+.tablet-proj-wrapper.clearfix:hover{
+  opacity: .7;
+}
+.tablet-proj-wrapper.clearfix h2{
+  margin-bottom: 0;
+}
+.tablet-proj-wrapper.clearfix p{
+  margin-top: -1.0em;
+}
+.tablet-proj-wrapper.clearfix img{
+  width: 60%;
+}
+div.tablet-wrapper div.view-all-link h4{
+  padding-top: 29%;
+}
 
 /*----- FOOTER -----*/
 
