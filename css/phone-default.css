@@ -55,6 +55,11 @@ header h2 {
   margin: 0 10%;
 }
 
+header.proj-page{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  opacity: .7;
+}
 
 
 /*-----NAVigation -----*/
@@ -190,7 +195,7 @@ div#contact-mobile.contact-wrapper p span{
   text-transform: uppercase;
 }
 
-/*----- UX Projects Page ---------*/
+/*----- UX Main Projects Page ---------*/
 .ux-proj-wrapper{
   text-align: center;
   width: 96%;
@@ -222,6 +227,52 @@ div#crowdCare-mobile.ux-proj-wrapper{
 div#spaceBar-mobile.ux-proj-wrapper{
   margin-top: .75em;
 }
+
+
+/*----- Individual Project Pages ------------------*/
+.indiv-proj-wrapper{
+  text-align: center;
+  background: white;
+  color: #999;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+div#content div.mobile-wrapper h1.proj-h1{
+  padding-top: .25em;
+  font-size: 2em;
+  margin-bottom: -1.6em;
+}
+div#content div.mobile-wrapper p.proj-intro{
+  margin-top: -2.2em;
+}
+
+/*------- Styling for Stand Alone Project Pages --------*/
+div.overview{
+  background-color: rgba(0,0,0,.9);
+  color: white;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  text-align: center;
+  padding-left: .8em;
+  padding-right: .8em;
+  font-size: 1.2em;
+  line-height: 1.50;
+}
+div.overview h2{
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+div#role{
+  background-color: rgba(158,158,158,.15);
+  margin-top: -1em;
+  padding-bottom: .5em;
+}
+div#role h2{
+    padding-top: .8em;
+    font-size: 1.8em;
+    letter-spacing: .09em;
+}
+
 
 /*----- hide tablet projects on home screen -------*/
 .tablet-wrapper{ display: none; }
