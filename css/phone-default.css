@@ -262,7 +262,7 @@ div.overview h2{
   font-size: 1.8em;
   text-transform: uppercase;
 }
-div#role{
+div#role, div#wireframes{
   background-color: rgba(158,158,158,.15);
   margin-top: -1.5em;
   padding-bottom: .5em;
@@ -311,10 +311,15 @@ div.tools ul li, div.methods ul li{
   padding-bottom: .2em;
   padding-left: 1em;
 }
-div#role h2, div#challenge h2, div#approach h2, div#define h2{
+div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h2, div#wireframes h2{
     padding-top: .8em;
     font-size: 1.8em;
     letter-spacing: .09em;
+}
+div#site-design h2.second-h2{
+  font-size: 1.2em;
+  line-height: 1.4em;
+  padding-bottom: .5em;
 }
 div#role p, div#challenge p{
     font-size: 1.2em;
@@ -332,18 +337,19 @@ div#role ul li, div#challenge ul li{
     padding-bottom: .5em;
     list-style-type: square;
 }
-div#discovery{
+div#discovery, div#site-design, div#prototypes{
   background-color: rgba(0,0,0,.80);
 }
-div#discovery h2{
+div#discovery h2, div#prototypes h2{
   background-color: rgba(0,0,0,.85);
   font-size: 1.8em;
   letter-spacing: .3em;
   color: rgba(255,255,255,.9);
   line-height: 2.8em;
   margin-top: -.1em;
+  text-transform: uppercase;
 }
-div#discovery h3, div#define h3{
+div#discovery h3, div#define h3, div#site-design h3{
   text-align: left;
   padding-left: 1em;
   padding-right: 1em;
@@ -355,7 +361,7 @@ div#discovery h3, div#define h3{
 div#discovery h3{
   color: rgba(255,255,255,.85);
 }
-div#discovery p{
+div#discovery p, div#prototypes p{
   color: rgba(255,255,255,.75);
   font-size: 1.2em;
   text-align: left;
@@ -366,6 +372,8 @@ div#discovery p{
   line-height: 1.5;
   letter-spacing: .02em;
 }
+
+/*---image backgrounds -----*/
 div.indiv-proj-img.comp-analy{
   margin-top: -1.139em;
   padding: .8em;
@@ -378,18 +386,48 @@ div.indiv-proj-img.persona{
     color: rgba(0,0,0,.6);
     padding-bottom: .5em;
 }
+div.indiv-proj-img.sitemap{
+    background-color: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.9);
+    padding-top: .5em;
+    padding-bottom: 1em;
+    margin-top: -.2em;
+}
+div.indiv-proj-img.final-sitemap h3{
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+div.indiv-proj-img.mockup{
+  background-color: transparent;
+  margin-top: -1.25em;
+}
+div.indiv-proj-img.mockup h3{
+  padding-top: 1.5em;
+  margin-top: 2.5em;
+}
+
 div#define{
   background-color: rgba(158,158,158,.15);
   margin-top: -.2em;
   padding-top: 1em;
 }
-div#define h2{
+div#define h2, div#wireframes h2{
+  font-size: 1.8em;
+  letter-spacing: .3em;
   background-color: rgba(158,158,158,.25);
   margin-top: -.4em;
   line-height: 2.8em;
   color: rgba(0,0,0,.65);
+  text-transform: uppercase;
 }
-div#define p{
+div#site-design h2{
+  font-size: 1.8em;
+  letter-spacing: .3em;
+  background-color: rgba(158,158,158,.45);
+  line-height: 2.8em;
+  color: rgba(255,255,255,.85);
+}
+div#define p, div#site-design p, div#wireframes p{
   font-size: 1.2em;
   text-align: left;
   padding-left: 1em;
@@ -398,6 +436,9 @@ div#define p{
   padding-top: .5em;
   line-height: 1.5;
   letter-spacing: .02em;
+}
+div#trueSpirit-mobile.indiv-proj-wrapper h4{
+  padding-bottom: 1em;
 }
 
 /*----- hide tablet projects on home screen -------*/
@@ -422,10 +463,17 @@ div.tools h3 span img, div.methods h3 span img{
   width: 10%;
   opacity: .6;
 }
+div.indiv-proj-img.final-sitemap img{
+    border-bottom: 3em solid rgba(255, 255, 255, 0);
+}
 div.indiv-proj-img.comp-analy img{
   width: 90%;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+div.indiv-proj-img.mockup img{
+  margin-top: -2em;
+  margin-bottom: -4em;
 }
 
 /*-------SOCIAL ICONS ----------*/
