@@ -296,12 +296,9 @@ div.tools h3, div.methods h3{
   text-transform: uppercase;
   letter-spacing: .1em;
   text-align: left;
-  padding-left: 30%;
+  padding-left: 1em;
 }
-div.tools h3 span img, div.methods h3 span img{
-  width: 10%;
-  opacity: .6;
-}
+
 div.tools ul, div.methods ul{
   text-align: left;
   padding-left: .5em;
@@ -314,7 +311,7 @@ div.tools ul li, div.methods ul li{
   padding-bottom: .2em;
   padding-left: 1em;
 }
-div#role h2, div#challenge h2, div#approach h2{
+div#role h2, div#challenge h2, div#approach h2, div#define h2{
     padding-top: .8em;
     font-size: 1.8em;
     letter-spacing: .09em;
@@ -335,28 +332,72 @@ div#role ul li, div#challenge ul li{
     padding-bottom: .5em;
     list-style-type: square;
 }
-div#discovery h2{
-    font-size: 1.8em;
-    letter-spacing: .09em;
-    background-color: rgba(0,0,0,.8);
-    color: rgba(255,255,255,.85);
-    line-height: 2.5em;
-    margin-top: -.1em;
+div#discovery{
+  background-color: rgba(0,0,0,.80);
 }
-div#discovery h3{
+div#discovery h2{
+  background-color: rgba(0,0,0,.85);
+  font-size: 1.8em;
+  letter-spacing: .3em;
+  color: rgba(255,255,255,.9);
+  line-height: 2.8em;
+  margin-top: -.1em;
+}
+div#discovery h3, div#define h3{
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
   font-size: 1.5em;
   letter-spacing: .08em;
-  margin-left: .5em;
-  padding-top: .5em;
-  color: rgba(0,0,0,.8);
+  padding-top: 1em;
+  text-transform: uppercase;
+}
+div#discovery h3{
+  color: rgba(255,255,255,.85);
 }
 div#discovery p{
-    font-size: 1.2em;
-    text-align: left;
-    padding-left: .5em;
-    padding-right: .5em;
-    padding-bottom: 1em;
-    padding-top: 1em;
+  color: rgba(255,255,255,.75);
+  font-size: 1.2em;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: .5em;
+  line-height: 1.5;
+  letter-spacing: .02em;
+}
+div.indiv-proj-img.comp-analy{
+  margin-top: -1.139em;
+  padding: .8em;
+  background-color: rgba(0,0,0,.80);
+}
+div.indiv-proj-img.persona{
+    background: rgba(158,158,158,.05);
+    margin-top: -1.2em;
+    padding-top: .5em;
+    color: rgba(0,0,0,.6);
+    padding-bottom: .5em;
+}
+div#define{
+  background-color: rgba(158,158,158,.15);
+  margin-top: -.2em;
+  padding-top: 1em;
+}
+div#define h2{
+  background-color: rgba(158,158,158,.25);
+  margin-top: -.4em;
+  line-height: 2.8em;
+  color: rgba(0,0,0,.65);
+}
+div#define p{
+  font-size: 1.2em;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: .5em;
+  line-height: 1.5;
+  letter-spacing: .02em;
 }
 
 /*----- hide tablet projects on home screen -------*/
@@ -369,12 +410,22 @@ footer {
   clear: both;
   text-align: center;
   padding: 1em;
+  padding-bottom: .8em;
 }
 
 /*------ IMAGES --------*/
 img{
   width: 100%;
   height: auto;
+}
+div.tools h3 span img, div.methods h3 span img{
+  width: 10%;
+  opacity: .6;
+}
+div.indiv-proj-img.comp-analy img{
+  width: 90%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*-------SOCIAL ICONS ----------*/
