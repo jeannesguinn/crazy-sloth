@@ -267,6 +267,10 @@ div#role, div#wireframes{
   margin-top: -1.5em;
   padding-bottom: .5em;
 }
+div#role.bandmeeter-role p{
+  padding-left: 1em;
+  padding-right: 1em;
+}
 div#approach{
   background-color: rgba(158,158,158,.35);
 }
@@ -279,6 +283,17 @@ div#challenge{
     margin-top: -1.5em;
     color: rgba(0,0,0,.65);
     padding-top: .5em;
+}
+div#sketching h2{
+    padding-top: 1.5em;
+    background-color: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.9);
+    padding-bottom: 1em;
+    font-size: 1.8em;
+    letter-spacing: .09em;
+}
+div#define.bandmeeter-define{
+  padding-bottom: 1em;
 }
 div.tools{
   background-color: rgba(158,158,158,.15);
@@ -299,24 +314,25 @@ div.tools h3, div.methods h3{
   padding-left: 1em;
 }
 
-div.tools ul, div.methods ul{
+div.tools ul, div.methods ul, div#define ul{
   text-align: left;
   padding-left: .5em;
   padding-right: .5em;
 }
-div.tools ul li, div.methods ul li{
+div.tools ul li, div.methods ul li, div#define ul li{
   list-style-type: square;
   list-style-position: inside;
   font-size: 1.2em;
   padding-bottom: .2em;
   padding-left: 1em;
 }
-div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h2, div#wireframes h2{
+
+div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h2, div#wireframes h{
     padding-top: .8em;
     font-size: 1.8em;
     letter-spacing: .09em;
 }
-div#site-design h2.second-h2{
+div#site-design h2.second-h2, div#bandmeeter-persona h2.second-h2{
   font-size: 1.2em;
   line-height: 1.4em;
   padding-bottom: .5em;
@@ -337,7 +353,7 @@ div#role ul li, div#challenge ul li{
     padding-bottom: .5em;
     list-style-type: square;
 }
-div#discovery, div#site-design, div#prototypes{
+div#discovery, div#site-design, div#prototypes, div#sketching{
   background-color: rgba(0,0,0,.80);
 }
 div#discovery h2, div#prototypes h2{
@@ -349,7 +365,12 @@ div#discovery h2, div#prototypes h2{
   margin-top: -.1em;
   text-transform: uppercase;
 }
-div#discovery h3, div#define h3, div#site-design h3{
+div#discovery h2.bandmeeter-discovery{
+  line-height: 1.5em;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+div#discovery h3, div#define h3, div#site-design h3, div#bandmeeter-persona h3, div#bandmeeter-emp h3, div#sketching h3, div#scope h3, div#bandmeeter-sitemap h3{
   text-align: left;
   padding-left: 1em;
   padding-right: 1em;
@@ -358,10 +379,10 @@ div#discovery h3, div#define h3, div#site-design h3{
   padding-top: 1em;
   text-transform: uppercase;
 }
-div#discovery h3{
+div#discovery h3, div#sketching h3{
   color: rgba(255,255,255,.85);
 }
-div#discovery p, div#prototypes p{
+div#discovery p, div#prototypes p, div#sketching p{
   color: rgba(255,255,255,.75);
   font-size: 1.2em;
   text-align: left;
@@ -372,12 +393,29 @@ div#discovery p, div#prototypes p{
   line-height: 1.5;
   letter-spacing: .02em;
 }
+div#bandmeeter-persona{
+  padding-bottom: 1em;
+}
+div#sketching{
+  padding-bottom: 1.5em;
+  margin-bottom: .5em;
+}
 
 /*---image backgrounds -----*/
 div.indiv-proj-img.comp-analy{
   margin-top: -1.139em;
   padding: .8em;
   background-color: rgba(0,0,0,.80);
+}
+div.indiv-proj-img.bandmeeter-comp{
+  margin-top: -1.139em;
+  padding: .8em;
+  background-color: white;
+}
+div.indiv-proj-img.empathy{
+  background-color: rgba(158,158,158,.25);
+  margin-top: -1.1em;
+  margin-bottom: -.5em;
 }
 div.indiv-proj-img.persona{
     background: rgba(158,158,158,.05);
@@ -393,9 +431,17 @@ div.indiv-proj-img.sitemap{
     padding-bottom: 1em;
     margin-top: -.2em;
 }
+div.indiv-proj-img.bandmeeter-sketch{
+  background-color: rgba(0,0,0,.8);
+  margin-top: -1.2em;
+}
 div.indiv-proj-img.final-sitemap h3{
   padding-bottom: 1em;
   padding-top: 1em;
+}
+div.indiv-proj-img.bandmeeter-persona-img{
+  background-color: transparent;
+  margin-top: -1.25em;
 }
 div.indiv-proj-img.mockup{
   background-color: transparent;
@@ -405,13 +451,21 @@ div.indiv-proj-img.mockup h3{
   padding-top: 1.5em;
   margin-top: 2.5em;
 }
+div.indiv-proj-img.bandmeeter-sitemap-img{
+  padding: .5em;
+  margin-bottom: 1.5em;
+}
+div.indiv-proj-img.bandmeeter-sitemap-img h3{
+  padding-bottom: 1em;
+}
+/*--------------------------------------------------------------------*/
 
-div#define{
+div#define, div#bandmeeter-persona, div#bandmeeter-emp, div#scope, div#bandmeeter-sitemap{
   background-color: rgba(158,158,158,.15);
   margin-top: -.2em;
   padding-top: 1em;
 }
-div#define h2, div#wireframes h2{
+div#define h2, div#wireframes h2, div#bandmeeter-persona h2, div#bandmeeter-emp h2, div#scope h2{
   font-size: 1.8em;
   letter-spacing: .3em;
   background-color: rgba(158,158,158,.25);
@@ -424,10 +478,20 @@ div#site-design h2{
   font-size: 1.8em;
   letter-spacing: .3em;
   background-color: rgba(158,158,158,.45);
-  line-height: 2.8em;
   color: rgba(255,255,255,.85);
+  line-height: 2.8em;
 }
-div#define p, div#site-design p, div#wireframes p{
+
+div#bandmeeter-persona h2{
+  line-height: 1.8;
+  padding-bottom: .5em;
+  margin-top: -.5em;
+  padding-top: 1.25em;
+  letter-spacing: .5em;
+  background-color: rgba(158,158,158,.25);
+  color: rgba(0,0,0,.65);
+}
+div#define p, div#site-design p, div#wireframes p, div#bandmeeter-persona p, div#bandmeeter-emp p, div#scope p, div#bandmeeter-sitemap p{
   font-size: 1.2em;
   text-align: left;
   padding-left: 1em;
