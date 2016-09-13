@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- This is the Home Page for Jeanne Guinn's Portfolio  -->
+<title>Jeanne Guinn Design - Crowd Care App</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Load Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Roboto">
+
+<!-- Load Icons -->
+<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+<!--- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="container">
+
+
+      <!-- page navigation links here -->
+    <nav  id='top'>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header class='proj-page'>
+      <hgroup>
+      <h1>JEANNE GUINN</h1>
+      <h2>UX DESIGNER  |  WEB DEVELOPER</h2>
+      </hgroup>
+    </header>
+
+    <!-- page content here -->
+    <div id="content">
+
+    <!-- projects view from home screen for mobile devices-->
+      <div class='mobile-wrapper'>
+        <div class='indiv-proj-wrapper' id='trueSpirit-mobile'>
+          <h1 class='proj-h1'>CROWD CARE</h1>
+          <a href="https://stark-ocean-76448.herokuapp.com/
+            " target='blank'><img src="/images/CrowdCare450px.png" alt="Crowd Care">
+          </a>
+
+          <p class='proj-intro'>Timeframe: 4 days (class project)</p>
+          <p><span><a href="https://stark-ocean-76448.herokuapp.com/" target='blank'>View Demo</a></span><span>   |    </span><span><a href="https://github.com/colin1717/help-app" target='blank'>View GitHub</a></span></p>
+        <div class='overview'>
+          <h2>Project Overview</h2>
+          <p>The CrowdCare Application was created in order to foster volunteer efforts in close-knit social circles. We designed the app as a "volunteer virtual pot luck", wherein the creator of a Vounteer Project can create tasks that are needed for the specific project. These tasks are placed in three states, once created, assigned, completed and signed-off. These "states" create a checks and balances system between the volunteer and the project owner, in regards to task completion.
+          </p>
+        </div><!--end overview-->
+
+        <div id='challenge'>
+          <h2>CHALLENGES</h2>
+           <p>Initially, we encountered a bit of a challenge, when attempting to implement our state machine via a readily available RubyGem. Once implemented, we found that the gem was deprecated and would not work with our current version of Rails. We solved this challenge by rolling our own state machine, to transition the state of our current tasks inside of Projects.
+          </p>
+
+           <p>One of our major challenges in our project was not with Rails, rather with our CSS styling. After developing our own styles and grid system, we found ourselves, converting over to Bootstrap, due to time and lack of our own documentation. We found this to be both necessary and challenging, as we needed to find a system, where we could rely on convention, but at the same time, not begin from ground zero with styling. We found that we lost some styling control, which was troublesome, yet gained a standard method of styling, so that we could all work on implementation, as a team.
+          </p>
+        </div><!--end of challenge-->
+
+        <div id='approach' class='moscow'>
+          <h2>THE APPROACH</h2>
+          <h3>MOSCOW</h3>
+          <p>We approached creating this app with the MVP in mind. We utilized a MOSCOW strategy for development.
+          </p>
+          <ul>
+            <li>Mo - Must Have: What does this app absolutely HAVE TO HAVE in order to function properly? This is also known as the MVP.</li>
+            <li>S -  Should Have: This functionality is what the app should have, based on what a user expects to see in a pet adoption app. This is based on the products that have already paved the way in the market space. Users have seen certain features on similar apps, so this is their "norm".
+            </li>
+            <li>Co - Could Have: These are the "bells and whistles" features that could be added to increase the WOW factor of our app. These will only be implemented after the Must Haves and Should Haves are fleshed out, and solidly working.
+            </li>
+            <li>W -  Won't Have: Generally, these are the ideas akin to "Let's create an app that's a mash up of Facebook and... all of Google... and let's do it in a couple of days!" In other words, these are features that are placed in the Ice Box.</li>
+          </ul>
+        </div><!--end of approach-->
+
+        <div class='tools'>
+          <h3><span><img src="images/tools.png" alt="tools"></span><span>    </span>Technologies</h3>
+          <ul>
+            <li>Ruby &amp Ruby on Rails</li>
+            <li>Ruby Gems</li>
+            <li>PostgreSQL</li>
+            <li>Active Record </li>
+            <li>JavaScript &amp jQuery</li>
+            <li>$.ajax</li>
+            <li>ERB</li>
+            <li>HTML, CSS &amp SASS</li>
+            <li>Devise</li>
+            <li>Heroku</li>
+            <li>Git &amp GitHub</li>
+            <li>Lucidchart</li>
+          </ul>
+        </div><!--end tools-->
+
+
+        <div id='discovery'>
+          <h2>API Reference</h2>
+          <p>This program utilizes our own, internal APIs.
+          </p>
+        </div><!--end discovery-->
+
+
+        <div id='define'>
+          <h2>USER FLOWS</h2>
+          <h3>Planning before Coding</h3>
+          <p>I encouraged my team to think through and plan out HOW our user would use our app BEFORE coding the app. Through our discussions and whiteboarding exercises, we came to an understanding of who our user was, as well as how they would navigate through the Take Me Home App. I created a series of User Flows and Wireframes as a guideline to reference when developing our app.
+          </p>
+        </div><!--end define-->
+
+        <div class='indiv-proj-img persona'>
+          <h3>Take Me Home - User Flow</h3>
+          <img src="/images/takeMeHomeUFScaled.png" alt="Take Me Home User Flow">
+        </div><!--end of indiv-proj-img-->
+
+        <div id='site-design'>
+          <h2>WIREFRAMES</h2>
+        </div><!--end site-design-->
+
+        <div class='indiv-proj-img cards'>
+          <h3>Wireframe - View All Pets</h3>
+          <img src="/images/viewAllPets.png" alt="View All Pets">
+        </div><!--end of indiv-proj-img-->
+
+
+        <div class='indiv-proj-img cards sitemap'>
+          <h3>Wireframe - Pet Profile</h3>
+          <img src="/images/petProfile.png" alt="Pet Profile">
+        </div><!--end of indiv-proj-img-->
+
+         <div class='indiv-proj-img'>
+          <h3>Wireframe - Shelter Info.</h3>
+          <img src="/images/shelterInfo.png" alt="Shelter Info">
+        </div><!--end of indiv-proj-img-->
+
+        <div class='indiv-proj-img sitemap'>
+          <h3>Wireframe - My Liked Pets</h3>
+          <img src="/images/myLikedPets.png" alt="My Liked Pets">
+        </div><!--end of indiv-proj-img-->
+
+
+        <div id='future-plans'>
+          <h2>Future Development Plans</h2>
+          <p>Where do we go from here, you might ask? Well, for starters... we'd like to include a way for users to donate to animals that they would like to help, but can't adopt. The donate feature would allow users to contribute a certain amount that would be sent to the "hosting" shelter or rescue group. This contribution will pay for the animal's needs, while they're in their temporary home, such as food, medical needs or even toys (Hey, it's about the creature comforts too!).
+          </p>
+          <p>We'd also like to implement a volunteer feature, where users are able to sign up and help out at shelters and rescue groups in need of some extra hands. This feature would include a calendar, where Administrators of Rescues and Shelters could post times/days they need help and volunteers could click and sign up for a shift on the designated days/times. Marketing, Marketing, Marketing! We'd like to provide an even better experience for our users, so that we can facilitate animals finding loving homes! NO PET LEFT BEHIND!</p>
+        </div><!--end wireframes-->
+
+        <h4><a href="#top">Back to Top</a></h4>
+        </div><!--end indiv-proj-wrapper-->
+
+      </div><!--end mobile-wrapper-->
+
+
+    </div><!-- end content -->
+
+
+    <footer>
+      <p>&copy;2016, Jeanne Guinn Design</p>
+    </footer>
+
+    </div> <!-- end container -->
+    </div> <!-- end wrapper -->
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -262,7 +262,7 @@ div.overview h2{
   font-size: 1.8em;
   text-transform: uppercase;
 }
-div#role, div#wireframes{
+div#role, div#wireframes, div#future-plans{
   background-color: rgba(158,158,158,.15);
   margin-top: -1.5em;
   padding-bottom: .5em;
@@ -327,7 +327,7 @@ div.tools ul li, div.methods ul li, div#define ul li{
   padding-left: 1em;
 }
 
-div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h2, div#wireframes h{
+div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h2, div#wireframes h2, div#future-plans h2{
     padding-top: .8em;
     font-size: 1.8em;
     letter-spacing: .09em;
@@ -465,7 +465,7 @@ div#define, div#bandmeeter-persona, div#bandmeeter-emp, div#scope, div#bandmeete
   margin-top: -.2em;
   padding-top: 1em;
 }
-div#define h2, div#wireframes h2, div#bandmeeter-persona h2, div#bandmeeter-emp h2, div#scope h2{
+div#define h2, div#wireframes h2, div#future-plans h2, div#bandmeeter-persona h2, div#bandmeeter-emp h2, div#scope h2{
   font-size: 1.8em;
   letter-spacing: .3em;
   background-color: rgba(158,158,158,.25);
@@ -491,7 +491,13 @@ div#bandmeeter-persona h2{
   background-color: rgba(158,158,158,.25);
   color: rgba(0,0,0,.65);
 }
-div#define p, div#site-design p, div#wireframes p, div#bandmeeter-persona p, div#bandmeeter-emp p, div#scope p, div#bandmeeter-sitemap p{
+div#future-plans h2{
+  line-height: 1.5;
+  padding-top: .75em;
+  padding-bottom: .5em;
+  margin-top: .8em;
+}
+div#define p, div#site-design p, div#wireframes p, div#future-plans p, div#bandmeeter-persona p, div#bandmeeter-emp p, div#scope p, div#bandmeeter-sitemap p{
   font-size: 1.2em;
   text-align: left;
   padding-left: 1em;

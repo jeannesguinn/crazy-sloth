@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- This is the Home Page for Jeanne Guinn's Portfolio  -->
+<title>Jeanne Guinn Design - Take Me Home App</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Load Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Roboto">
+
+<!-- Load Icons -->
+<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+<!--- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="container">
+
+
+      <!-- page navigation links here -->
+    <nav  id='top'>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header class='proj-page'>
+      <hgroup>
+      <h1>JEANNE GUINN</h1>
+      <h2>UX DESIGNER  |  WEB DEVELOPER</h2>
+      </hgroup>
+    </header>
+
+    <!-- page content here -->
+    <div id="content">
+
+    <!-- projects view from home screen for mobile devices-->
+      <div class='mobile-wrapper'>
+        <div class='indiv-proj-wrapper' id='trueSpirit-mobile'>
+          <h1 class='proj-h1'>TAKE ME HOME</h1>
+          <a href="https://secret-scrubland-79329.herokuapp.com/
+            " target='blank'><img src="/images/TakeMeHome450px.png" alt="Take Me Home">
+          </a>
+
+          <p class='proj-intro'>Timeframe: 4 days (class project)</p>
+          <p><span><a href="https://secret-scrubland-79329.herokuapp.com/" target='blank'>View Demo</a></span><span>   |    </span><span><a href="https://github.com/colin1717/adopt-project" target='blank'>View GitHub</a></span></p>
+        <div class='overview'>
+          <h2>Project Overview</h2>
+          <p>The Take Me Home App was created in an effort to connect animals in rescues and shelters with potential new forever homes. After researching the applications that are currently available, a recurring theme became painfully clear. There are no pet adoption apps on the market that provide a clean, seamless interface. We created the Take Me Home App in hopes that we can help all homeless pets find life long love connections with their humans.
+          </p>
+        </div><!--end overview-->
+
+        <div id='challenge'>
+          <h2>CHALLENGES</h2>
+           <p>As a team, one of our challenges, out of the gate was with our the first API we attempted to utilize. Lack of documentation and explanation of requirements created a major hurdle, when we attempted to utilize the API. Luckily, we found the petfinder API, which has much better documentation. While the petfinder API proved to be a better solution for our app, we did encounter a challenge with the image data. Given that the petfinder API collects data from a database of over 300,000 pets and 11,000 animal welfare organizations, there was no set standard for image quality. We encountered documents containing images of varying resolution and size, which made our goal of providing a clean visual experience, a bit of a challenge. When all was said and done, we found that certain image positions in the array of objects returned, were of higher quality than others, but there was no real consistency to speak of.</p>
+
+           <p>Another major hurdle was learning how to navigate the team's code. Throughout the development cycle of our app, it became very apparent how important readable code is. This proved to be a valuable learning experience, early on. Luckily, our team wrote relatively clean code, minimizing our potential issues.
+          </p>
+        </div><!--end of challenge-->
+
+        <div id='approach' class='moscow'>
+          <h2>THE APPROACH</h2>
+          <h3>MOSCOW</h3>
+          <p>We approached creating this app with the MVP in mind. We utilized a MOSCOW strategy for development.
+          </p>
+          <ul>
+            <li>Mo - Must Have: What does this app absolutely HAVE TO HAVE in order to function properly? This is also known as the MVP.</li>
+            <li>S -  Should Have: This functionality is what the app should have, based on what a user expects to see in a pet adoption app. This is based on the products that have already paved the way in the market space. Users have seen certain features on similar apps, so this is their "norm".
+            </li>
+            <li>Co - Could Have: These are the "bells and whistles" features that could be added to increase the WOW factor of our app. These will only be implemented after the Must Haves and Should Haves are fleshed out, and solidly working.
+            </li>
+            <li>W -  Won't Have: Generally, these are the ideas akin to "Let's create an app that's a mash up of Facebook and... all of Google... and let's do it in a couple of days!" In other words, these are features that are placed in the Ice Box.</li>
+          </ul>
+        </div><!--end of approach-->
+
+        <div class='tools'>
+          <h3><span><img src="images/tools.png" alt="tools"></span><span>    </span>Technologies</h3>
+          <ul>
+            <li>Javascript &amp jQuery</li>
+            <li>$.ajax</li>
+            <li>JSON</li>
+            <li>Node.js</li>
+            <li>npm</li>
+            <li>Express</li>
+            <li>EJS</li>
+            <li>HTML &amp CSS</li>
+            <li>MongoDB</li>
+            <li>mLab</li>
+            <li>Mongoose</li>
+            <li>Passport &amp Passport-Local</li>
+            <li>Heroku</li>
+            <li>Git &amp GitHub</li>
+            <li>Lucidchart</li>
+          </ul>
+        </div><!--end tools-->
+
+
+        <div id='discovery'>
+          <h2>API Reference</h2>
+          <h3>Petfinder API</h3>
+          <p>This program utilizes our internal APIs, developed by my team, as well as the Petfinder API.
+          </p>
+          <p>The Petfinder API gives developers access to access Petfinder's database of over 300,000 adoptable pets and 11,000 animal welfare organizations (AWO). In addition to searching for adoptable pets on the Petfinder.com web site, you can use the API to create your own dynamic pet web sites or applications, using the same data we use on Petfinder.com.
+          </p>
+        </div><!--end discovery-->
+
+
+        <div id='define'>
+          <h2>USER FLOWS</h2>
+          <h3>Planning before Coding</h3>
+          <p>I encouraged my team to think through and plan out HOW our user would use our app BEFORE coding the app. Through our discussions and whiteboarding exercises, we came to an understanding of who our user was, as well as how they would navigate through the Take Me Home App. I created a series of User Flows and Wireframes as a guideline to reference when developing our app.
+          </p>
+        </div><!--end define-->
+
+        <div class='indiv-proj-img persona'>
+          <h3>Take Me Home - User Flow</h3>
+          <img src="/images/takeMeHomeUFScaled.png" alt="Take Me Home User Flow">
+        </div><!--end of indiv-proj-img-->
+
+        <div id='site-design'>
+          <h2>WIREFRAMES</h2>
+        </div><!--end site-design-->
+
+        <div class='indiv-proj-img cards'>
+          <h3>Wireframe - View All Pets</h3>
+          <img src="/images/viewAllPets.png" alt="View All Pets">
+        </div><!--end of indiv-proj-img-->
+
+
+        <div class='indiv-proj-img cards sitemap'>
+          <h3>Wireframe - Pet Profile</h3>
+          <img src="/images/petProfile.png" alt="Pet Profile">
+        </div><!--end of indiv-proj-img-->
+
+         <div class='indiv-proj-img'>
+          <h3>Wireframe - Shelter Info.</h3>
+          <img src="/images/shelterInfo.png" alt="Shelter Info">
+        </div><!--end of indiv-proj-img-->
+
+        <div class='indiv-proj-img sitemap'>
+          <h3>Wireframe - My Liked Pets</h3>
+          <img src="/images/myLikedPets.png" alt="My Liked Pets">
+        </div><!--end of indiv-proj-img-->
+
+
+        <div id='future-plans'>
+          <h2>Future Development Plans</h2>
+          <p>Where do we go from here, you might ask? Well, for starters... we'd like to include a way for users to donate to animals that they would like to help, but can't adopt. The donate feature would allow users to contribute a certain amount that would be sent to the "hosting" shelter or rescue group. This contribution will pay for the animal's needs, while they're in their temporary home, such as food, medical needs or even toys (Hey, it's about the creature comforts too!).
+          </p>
+          <p>We'd also like to implement a volunteer feature, where users are able to sign up and help out at shelters and rescue groups in need of some extra hands. This feature would include a calendar, where Administrators of Rescues and Shelters could post times/days they need help and volunteers could click and sign up for a shift on the designated days/times. Marketing, Marketing, Marketing! We'd like to provide an even better experience for our users, so that we can facilitate animals finding loving homes! NO PET LEFT BEHIND!</p>
+        </div><!--end wireframes-->
+
+        <h4><a href="#top">Back to Top</a></h4>
+        </div><!--end indiv-proj-wrapper-->
+
+      </div><!--end mobile-wrapper-->
+
+
+    </div><!-- end content -->
+
+
+    <footer>
+      <p>&copy;2016, Jeanne Guinn Design</p>
+    </footer>
+
+    </div> <!-- end container -->
+    </div> <!-- end wrapper -->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
