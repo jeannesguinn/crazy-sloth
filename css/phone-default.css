@@ -284,6 +284,16 @@ div#challenge{
     color: rgba(0,0,0,.65);
     padding-top: .5em;
 }
+div#challenge.crowdCareChallenge{
+  margin-top: 0;
+  padding-top: 0;
+}
+div#challenge.crowdCareChallenge h2.crowdCareChallenge-h2{
+  background-color: rgba(158,158,158,.15);
+  margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 div#sketching h2{
     padding-top: 1.5em;
     background-color: rgba(0,0,0,.8);
@@ -292,6 +302,14 @@ div#sketching h2{
     font-size: 1.8em;
     letter-spacing: .09em;
 }
+div#define.crowdCare-define h2{
+  line-height: 1.5;
+  padding-bottom: 1em;
+  letter-spacing: .07em;
+}
+div#define.crowdCare-define p{
+  margin-bottom: 0;
+}
 div#define.bandmeeter-define{
   padding-bottom: 1em;
 }
@@ -299,6 +317,16 @@ div.tools{
   background-color: rgba(158,158,158,.15);
   margin-top: -1.5em;
   padding-top: 1.25em;
+}
+div.tools.crowdCareTools{
+  margin-top: 0;
+}
+div.tools.crowdCareTools h3{
+  padding-bottom: 1em;
+}
+div.tools.crowdCareTools ul{
+  padding-bottom: 2em;
+  margin-bottom: 0;
 }
 div.methods{
   background-color: rgba(158,158,158,.15);
@@ -332,6 +360,16 @@ div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h
     font-size: 1.8em;
     letter-spacing: .09em;
 }
+div#discovery.api h2{
+  margin-top: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: rgba(0,0,0,.4);
+}
+div#discovery.api p{
+    margin-bottom: 0;
+    text-align: center;
+}
 div#site-design h2.second-h2, div#bandmeeter-persona h2.second-h2{
   font-size: 1.2em;
   line-height: 1.4em;
@@ -343,12 +381,12 @@ div#role p, div#challenge p{
     padding-left: .5em;
     padding-right: .5em;
 }
-div#role ul, div#challenge ul{
+div#role ul, div#challenge ul, div#approach.moscow ul{
     text-align: left;
     margin-right: .5em;
     line-height: 1.3;
 }
-div#role ul li, div#challenge ul li{
+div#role ul li, div#challenge ul li, div#approach.moscow ul li{
     font-size: 1.2em;
     padding-bottom: .5em;
     list-style-type: square;
@@ -370,6 +408,29 @@ div#discovery h2.bandmeeter-discovery{
   padding-bottom: .5em;
   padding-top: .5em;
 }
+div#approach.moscow h2{
+    background-color: rgba(158,158,158,.75);
+    color: rgba(255,255,255,.8);
+}
+div#approach.moscow h3{
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: rgba(0,0,0,.6);
+}
+div#approach.moscow p{
+  text-align: left;
+  padding: 1em;
+  line-height: 1.5;
+  letter-spacing: .02em;
+  font-size: 1.2em;
+  color: rgba(0,0,0,.6);
+}
+div#approach.moscow ul{
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+}
 div#discovery h3, div#define h3, div#site-design h3, div#bandmeeter-persona h3, div#bandmeeter-emp h3, div#sketching h3, div#scope h3, div#bandmeeter-sitemap h3{
   text-align: left;
   padding-left: 1em;
@@ -378,6 +439,12 @@ div#discovery h3, div#define h3, div#site-design h3, div#bandmeeter-persona h3, 
   letter-spacing: .08em;
   padding-top: 1em;
   text-transform: uppercase;
+}
+div#site-design.crowdCareWires h2{
+  margin-top: 0;
+  line-height: 1.5;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 div#discovery h3, div#sketching h3{
   color: rgba(255,255,255,.85);
@@ -424,12 +491,32 @@ div.indiv-proj-img.persona{
     color: rgba(0,0,0,.6);
     padding-bottom: .5em;
 }
+div.indiv-proj-img.persona.crowdCareERD{
+  margin-top: 0;
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
 div.indiv-proj-img.sitemap{
     background-color: rgba(0,0,0,.8);
     color: rgba(255,255,255,.9);
     padding-top: .5em;
     padding-bottom: 1em;
     margin-top: -.2em;
+}
+div.indiv-proj-img.cards.sitemap.wires img{
+    border-top: 3em solid white;
+    border-bottom: 3em solid white;
+    background-color: white;
+}
+div.indiv-proj-img.cards.wires h3{
+  background-color: rgba(0,0,0,.8);
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  color: rgba(255,255,255,.8);
+}
+div.indiv-proj-img.cards.wires img{
+    border-bottom: 2.5em solid white;
+    border-top: 2.5em solid white;
 }
 div.indiv-proj-img.bandmeeter-sketch{
   background-color: rgba(0,0,0,.8);
@@ -438,6 +525,11 @@ div.indiv-proj-img.bandmeeter-sketch{
 div.indiv-proj-img.final-sitemap h3{
   padding-bottom: 1em;
   padding-top: 1em;
+}
+div.indiv-proj-img.wires h3{
+  margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 div.indiv-proj-img.bandmeeter-persona-img{
   background-color: transparent;
