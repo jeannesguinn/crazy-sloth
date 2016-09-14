@@ -18,19 +18,34 @@ header{
   padding-top: 5.5em;
   padding-bottom: 6em;
 }
+header.proj-page{
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
 div#container header hgroup h1{
   border: 2px solid white;
   margin-left: 10%;
   margin-right: 10%;
   letter-spacing: .5em;
-  line-height: 3em;
+  line-height: 4em;
+  font-size: 2.8em;
 }
 div#container header hgroup h2{
-  font-size: 1em;
+  font-size: 1.6em;
   letter-spacing: .3em;
+  color: white;
 }
 
+
 /*-----NAVigation -----*/
+  nav#top{
+    font-size: 1.5em;
+    letter-spacing: .25em;
+  }
+  nav{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
   nav ul li { }
   nav ul li a {}
 
@@ -39,15 +54,103 @@ div#container header hgroup h2{
 /*-----CONTENT -----*/
 
 #content{
-  min-height: 5em;
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
 }
-
 #content h1{
   font-size: 1.4em;
   margin-bottom: 1.5em;
   padding-top: .5em;
+}
+div#content div.mobile-wrapper p.proj-intro{
+  margin-top: -4em;
+  font-size: 1.8em;
+}
+div#trueSpirit-mobile.indiv-proj-wrapper p span a{
+  color: mediumTurquoise;
+  font-size: 1.5em;
+}
+/*----------- Overview Section---------*/
+div.overview p{
+  line-height: 1.6;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+/*-----------Challenges Section--------*/
+div#challenge.crowdCareChallenge h2.crowdCareChallenge-h2{
+  font-size: 2em;
+  letter-spacing: .15em;
+}
+div#challenge.crowdCareChallenge p{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    line-height: 1.15;
+}
+/*------------Tools Section------------------*/
+div.tools.crowdCareTools{
+  margin: 5%;
+}
+div.tools.crowdCareTools h3{
+  text-align: center;
+  padding-bottom: 2em;
+}
+div.tools.crowdCareTools ul{
+  padding-bottom: 3em;
+  padding-left: 35%;
+}
+div.tools.crowdCareTools ul li{
+  font-size: 1.4em;
+  padding-bottom: .5em;
+}
+/*----------Define Section------------------*/
+div#define.crowdCare-define{
+  padding-top: 0;
+  margin-top: 0;
+}
+div#define.crowdCare-define h2{
+  font-size: 2em;
+  letter-spacing: .15em;
+  background-color: rgba(0,0,0,.5);
+  color: rgba(255,255,255, .9);
+}
+div#define.crowdCare-define p{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 1.3em;
+  line-height: 1.6;
+  text-align: center;
+  color: rgba(0,0,0,.5);
+}
+
+/*---------------Images and Image Sections-------------*/
+div.indiv-proj-img.persona.crowdCareERD{
+  background-color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.indiv-proj-img.persona.crowdCareERD h3{
+    background-color: rgba(103, 58, 183, 0.12);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1.3em;
+    letter-spacing: .05em;
+    margin-top: 0;
+}
+div.indiv-proj-img.persona.crowdCareERD img{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/*-------------Future Development Section-----------------*/
+div#future-plans h2{
+  font-size: 2em;
+}
+div#future-plans p{
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.6;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 /*----------------Show the Tablet Projects View on Home Page ---------*/
@@ -101,9 +204,9 @@ div.view-all-link a:hover{
 }
 
 /*-----------------Hide the Mobile Projects View----------------------*/
-.mobile-wrapper{
+/*.mobile-wrapper{
   display:none;
-}
+}*/
 
 /*----- FOOTER -----*/
 
