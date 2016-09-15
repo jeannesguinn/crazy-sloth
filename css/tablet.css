@@ -64,6 +64,7 @@ div#container header hgroup h2{
 div#content div.mobile-wrapper h1.proj-h1{
   font-size: 2.5em;
   padding-top: 1em;
+  margin-top: 0;
 }
 div#content div.mobile-wrapper p.proj-intro{
   margin-top: -4em;
@@ -77,6 +78,9 @@ div#trueSpirit-mobile.indiv-proj-wrapper h4 a{
     color: mediumturquoise;
     font-size: 1.5em;
     letter-spacing: .05em;
+}
+div#trueSpirit-mobile.indiv-proj-wrapper img.ts-img1{
+  margin-top: -2.5em;
 }
 /*----------- Overview Section---------*/
 div.overview h2{
@@ -124,7 +128,7 @@ div#approach h2{
 }
 
 /*------------Role Section-------------------*/
-div#role{
+div#role, div#role.bandmeeter-role{
   margin-top: 0;
   padding-top: 0;
 }
@@ -138,7 +142,7 @@ div#role h2{
   letter-spacing: .2em;
   margin-bottom: 0;
 }
-div#role p{
+div#role p, div#role.bandmeeter-role p{
   padding-left: 1.5em;
   padding-right: 1.5em;
   font-size: 1.5em;
@@ -207,7 +211,7 @@ div#define.crowdCare-define h2{
   color: rgba(255,255,255, .9);
   margin-top: 0;
 }
-div#define.crowdCare-define h3{
+div#define.crowdCare-define h3, div#define.bandmeeter-define h3{
   font-size: 1.8em;
   text-align: center;
   font-size: 1.8em;
@@ -217,16 +221,42 @@ div#define.crowdCare-define h3{
   margin: 1em;
 }
 
-div#define.crowdCare-define p{
+div#define.crowdCare-define p, div#define.bandmeeter-define p{
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-top: 1em;
-  padding-bottom: 2em;
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.6;
   text-align: left;
-  color: rgba(0,0,0,.5);
 }
+div#define.crowdCare-define p{
+  color: rgba(0,0,0,.5);
+  padding-bottom: 2em;
+}
+div#define.bandmeeter-define p{
+  padding-bottom: 1em;
+}
+div#define.bandmeeter-define{
+  margin-top: 0;
+  padding-top: 0;
+}
+div#define.bandmeeter-define h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2em;
+  letter-spacing: .2em;
+}
+div#define.bandmeeter-define ul{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+div#define.bandmeeter-define ul li{
+  font-size: 1.4em;
+  line-height: 1.6;
+}
+
 /*---------------Approach Section----------------------*/
 div#approach.moscow{
   padding-bottom: .5em;
@@ -271,7 +301,7 @@ div#discovery h2{
   padding-top: 1em;
   padding-bottom: 1em;
 }
-div#discovery h3, div#site-design h3{
+div#discovery h3, div#site-design h3, div#sketching h3{
   text-align: center;
   font-size: 1.8em;
   letter-spacing: .15em;
@@ -279,7 +309,7 @@ div#discovery h3, div#site-design h3{
   border: 1px solid white;
   margin: 1em;
 }
-div#discovery p, div#site-design p, div#wireframes p{
+div#discovery p, div#site-design p, div#wireframes p, div#prototypes p{
   font-size: 1.4em;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -287,6 +317,17 @@ div#discovery p, div#site-design p, div#wireframes p{
   padding-top: 1.25em;
   padding-bottom: 3em;
   line-height: 1.5;
+}
+div#discovery.bandmeeter-discovery-wrapper{
+  background-color: rgba(96,125,139,.72);
+  padding-bottom: 3.5em;
+}
+div#discovery.bandmeeter-discovery-wrapper p.bm-discovery-p1{
+  margin-top: 0;
+  padding-bottom: 1.25em;
+}
+div#discovery.bandmeeter-discovery-wrapper p.bm-discovery-p2{
+  padding-bottom: 0;
 }
 /*---------------Site Design Section-------------------*/
 div#site-design{
@@ -305,18 +346,123 @@ div#site-design h2.second-h2{
   padding-bottom: 1em;
   line-height: 1.6;
 }
+/*---------- Persona Section-------------*/
+div#bandmeeter-persona{
+  margin-top: 0;
+}
+div#bandmeeter-persona h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2em;
+  letter-spacing: .2em;
+}
+div#bandmeeter-persona p{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.5;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/*---------- Empathy Mapping Section-------------*/
+div#bandmeeter-emp{
+  margin: 0;
+  padding-top: 0;
+}
+div#bandmeeter-emp h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2em;
+  letter-spacing: .2em;
+}
+div#bandmeeter-emp p, div#scope p, div#bandmeeter-sitemap p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+/*---------- Sketching Section-------------*/
+div#sketching{
+  margin: 0;
+  background-color: rgba(0,0,0,.5);
+}
+div#sketching h2{
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: .2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: rgba(0,0,0,.45);
+}
+div#sketching p{
+  margin: 0;
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+/*---------- Scope Section-------------*/
+div#scope{
+  margin: 0;
+  padding-top: 0;
+}
+div#scope h2{
+  margin: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: 2em;
+  letter-spacing: .2em;
+}
+div#scope h3, div#bandmeeter-sitemap h3{
+  text-align: center;
+  font-size: 1.8em;
+  letter-spacing: .15em;
+  padding-bottom: 1em;
+  border: 1px solid #999;
+  margin: 1em;
+}
+
+/*---------- Sitemap Section-------------*/
+div#bandmeeter-sitemap{
+  margin: 0;
+}
+
+
 /*---------- Wireframes Section-------------*/
 div#wireframes{
   margin-top: 0;
 }
-div#wireframes h2{
+div#wireframes h2, div#prototypes h2{
     margin-top: 0;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     font-size: 2em;
     line-height: 1.8;
 }
+div#wireframes p.bm-wires-p2{
+  padding-bottom: 0;
+}
+div#wireframes p.bm-wires-p3{
+  padding-top: 0;
+}
 /*---------------Images and Image Sections-------------*/
+div#trueSpirit-mobile.indiv-proj-wrapper a img{
+  padding: 2.5em;
+}
+div.indiv-proj-img.ts-wires img{
+  padding: 1.5em;
+}
+div.indiv-proj-img.ts-wires h3{
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
 div.indiv-proj-img.persona.crowdCareERD{
     background-color: white;
     padding-top: 0;
@@ -341,14 +487,13 @@ div.indiv-proj-img.persona.ux h3{
 }
 div.indiv-proj-img.final-sitemap.ux h3{
   font-size: 1.3em;
-  padding-bottom: 1.5em;
+  padding-bottom: 3.5em;
   padding-top: 1.5em;
   margin-top: 0;
 }
 div.indiv-proj-img.persona.ux img{
   padding: 1.5em;
 }
-
 div.indiv-proj-img.persona.crowdCareERD img{
   padding-top: 3em;
   padding-bottom: 3em;
@@ -368,6 +513,50 @@ div.indiv-proj-img.cards h3{
 }
 div.indiv-proj-img.comp-analy{
   display: none;
+}
+div.indiv-proj-img.mockup{
+  margin-top: 0;
+  margin-bottom: -4em;
+}
+div.indiv-proj-img.mockup img{
+  padding: 2em;
+}
+div.indiv-proj-img.mockup.bm-mockup img{
+  width: 80%;
+}
+div.indiv-proj-img.mockup h3{
+  font-size: 1.3em;
+  letter-spacing: .09em;
+  margin-top: 0;
+  padding-top: 3em;
+  padding-bottom: 0;
+}
+div.indiv-proj-img.bandmeeter-comp{
+  margin-top: 0;
+  padding: 0 1.5em 0 1.5em;
+}
+div.indiv-proj-img.empathy{
+  margin: 0;
+}
+div.indiv-proj-img.empathy img{
+  padding: 1.5em;
+}
+div.indiv-proj-img.bandmeeter-persona-img{
+  margin-top: 0;
+  padding: 1.5em;
+}
+div.indiv-proj-img.bandmeeter-sketch{
+  margin: 0;
+}
+div.indiv-proj-img.bandmeeter-sitemap-img{
+  margin-bottom: 0;
+  padding-bottom: 3em;
+}
+div.indiv-proj-img.bandmeeter-sitemap-img h3{
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  font-size: 1.4em;
+  letter-spacing: .1em;
 }
 /*------------- Side By Side Images-----------------*/
 div.img-2up-container.clearfix{
@@ -394,6 +583,7 @@ div.img-2up-container.clearfix h3{
   font-size: 1.2em;
   letter-spacing: .1em;
 }
+
 /*-------------Future Development Section-----------------*/
 div#future-plans h2{
   font-size: 2em;
