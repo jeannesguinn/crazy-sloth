@@ -664,7 +664,10 @@ div#contact-mobile.contact-wrapper p a:hover{
   display: none;
 }
 
-
+/*---- hide side by side images on phone -----*/
+div.img-2up-container.clearfix{
+  display: none;
+}
 
 
 

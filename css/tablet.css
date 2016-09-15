@@ -121,7 +121,6 @@ div#approach h2{
   margin-bottom: 0;
   padding-top: 1em;
   padding-bottom: 1em;
-
 }
 
 /*------------Role Section-------------------*/
@@ -189,6 +188,10 @@ div.col-2.clearfix div.tools{
 }
 div.col-2.clearfix div.methods{
   padding-right: 1.5em;
+}
+div.col-2.clearfix{
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 
@@ -264,8 +267,11 @@ div#approach.moscow div.moscow-tble ul li span{
 div#discovery h2{
   font-size: 2em;
   margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-div#discovery h3{
+div#discovery h3, div#site-design h3{
   text-align: center;
   font-size: 1.8em;
   letter-spacing: .15em;
@@ -273,17 +279,48 @@ div#discovery h3{
   border: 1px solid white;
   margin: 1em;
 }
-div#discovery p{
+div#discovery p, div#site-design p, div#wireframes p{
   font-size: 1.4em;
   padding-left: 1.5em;
   padding-right: 1.5em;
   margin-bottom: 0;
+  padding-top: 1.25em;
+  padding-bottom: 3em;
+  line-height: 1.5;
+}
+/*---------------Site Design Section-------------------*/
+div#site-design{
+  background-color: rgba(0,0,0,.85);
+}
+div#site-design h2{
+    background-color: rgba(0,0,0,.8);
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.6;
+}
+div#site-design h2.second-h2{
+  font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.6;
+}
+/*---------- Wireframes Section-------------*/
+div#wireframes{
+  margin-top: 0;
+}
+div#wireframes h2{
+    margin-top: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: 2em;
+    line-height: 1.8;
 }
 /*---------------Images and Image Sections-------------*/
 div.indiv-proj-img.persona.crowdCareERD{
-  background-color: white;
-  padding-top: 0;
-  padding-bottom: 0;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 div.indiv-proj-img.persona.crowdCareERD h3, div.indiv-proj-img.persona h3{
     background-color: rgba(103, 58, 183, 0.12);
@@ -293,6 +330,25 @@ div.indiv-proj-img.persona.crowdCareERD h3, div.indiv-proj-img.persona h3{
     letter-spacing: .05em;
     margin-top: 0;
 }
+div.indiv-proj-img h3{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div.indiv-proj-img.persona.ux h3{
+  background-color: white;
+  padding-top: 1.5em;
+}
+div.indiv-proj-img.final-sitemap.ux h3{
+  font-size: 1.3em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  margin-top: 0;
+}
+div.indiv-proj-img.persona.ux img{
+  padding: 1.5em;
+}
+
 div.indiv-proj-img.persona.crowdCareERD img{
   padding-top: 3em;
   padding-bottom: 3em;
@@ -310,7 +366,34 @@ div.indiv-proj-img.cards h3{
   font-size: 1.2em;
   letter-spacing: .1em;
 }
-
+div.indiv-proj-img.comp-analy{
+  display: none;
+}
+/*------------- Side By Side Images-----------------*/
+div.img-2up-container.clearfix{
+  display: block;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+div.img-2up{
+  width: 50%;
+  float: left;
+}
+div.img-2up img{
+  width: 100%;
+  height: auto;
+  padding: 2.5%;
+}
+div.img-2up.ht-80 img{
+  width: 90%;
+  padding-top: 2.67em;
+}
+div.img-2up-container.clearfix h3{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+}
 /*-------------Future Development Section-----------------*/
 div#future-plans h2{
   font-size: 2em;
@@ -377,7 +460,9 @@ div.view-all-link a:hover{
 /*.mobile-wrapper{
   display:none;
 }*/
-
+div.tablet-hide{
+  display: none;
+}
 /*----- FOOTER -----*/
 
 
