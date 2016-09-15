@@ -61,6 +61,10 @@ div#container header hgroup h2{
   margin-bottom: 1.5em;
   padding-top: .5em;
 }
+div#content div.mobile-wrapper h1.proj-h1{
+  font-size: 2.5em;
+  padding-top: 1em;
+}
 div#content div.mobile-wrapper p.proj-intro{
   margin-top: -4em;
   font-size: 1.8em;
@@ -69,38 +73,125 @@ div#trueSpirit-mobile.indiv-proj-wrapper p span a{
   color: mediumTurquoise;
   font-size: 1.5em;
 }
+div#trueSpirit-mobile.indiv-proj-wrapper h4 a{
+    color: mediumturquoise;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+}
 /*----------- Overview Section---------*/
+div.overview h2{
+  font-size: 2em;
+  letter-spacing: .1em;
+}
 div.overview p{
   line-height: 1.6;
-  margin-left: .5em;
-  margin-right: .5em;
+  font-size: 1.2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 /*-----------Challenges Section--------*/
 div#challenge.crowdCareChallenge h2.crowdCareChallenge-h2{
   font-size: 2em;
-  letter-spacing: .15em;
+  letter-spacing: .1em;
 }
 div#challenge.crowdCareChallenge p{
     padding-left: 1.5em;
     padding-right: 1.5em;
-    line-height: 1.15;
+    line-height: 1.25;
+    font-size: 1.4em;
+}
+div#challenge.crowdCareChallenge h2.chal-h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: 2em;
+    letter-spacing: .2em;
+    background-color: rgba(0,0,0,.2);
+    color: rgba(0,0,0,.5);
+}
+div#challenge.crowdCareChallenge div.tablet-ul{
+  padding-top: 1.5em;
+}
+/*------------Approach Section---------------*/
+div#approach h2{
+  font-size: 2em;
+  letter-spacing: .15em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+
+/*------------Role Section-------------------*/
+div#role{
+  margin-top: 0;
+  padding-top: 0;
+}
+div#role h2{
+  margin-top: 0;
+  padding-top: 1.5em;
+  font-size: 2em;
+  background-color: rgba(158,158,158,.25);
+  padding-bottom: 1em;
+  color: rgba(0,0,0,.5);
+  letter-spacing: .2em;
+  margin-bottom: 0;
+}
+div#role p{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.5em;
+  line-height: 1.25;
+  text-align: center;
+}
+div.tablet-ul{
+  width: 90%;
+  margin-left: 5%;
+}
+div.tablet-ul ul{
+  font-size: 1.2em;
+  line-height: 1.25;
+  letter-spacing: .09em;
 }
 /*------------Tools Section------------------*/
-div.tools.crowdCareTools{
-  margin: 5%;
+div.tools.crowdCareTools div.tools-inset{
+    width: 50%;
+    margin-left: 25%;
 }
-div.tools.crowdCareTools h3{
-  text-align: center;
+div.tools.crowdCareTools{
+  margin: 2.5%;
+}
+div.tools.crowdCareTools div.tools-inset h3{
+  text-align: left;
   padding-bottom: 2em;
+  padding-left: 1em;
 }
 div.tools.crowdCareTools ul{
+  text-align: left;
   padding-bottom: 3em;
-  padding-left: 35%;
+  padding-left: 1em;
 }
 div.tools.crowdCareTools ul li{
   font-size: 1.4em;
   padding-bottom: .5em;
 }
+/*--------- Tools - 2 columns---------------*/
+div.col-2.clearfix div.tools, div.col-2.clearfix div.methods{
+  width: 50%;
+  float: left;
+  background-color: white;
+  font-size: 1.3em;
+}
+div.col-2.clearfix div.tools{
+  padding-left: 1.5em;
+}
+div.col-2.clearfix div.methods{
+  padding-right: 1.5em;
+}
+
+
 /*----------Define Section------------------*/
 div#define.crowdCare-define{
   padding-top: 0;
@@ -111,7 +202,18 @@ div#define.crowdCare-define h2{
   letter-spacing: .15em;
   background-color: rgba(0,0,0,.5);
   color: rgba(255,255,255, .9);
+  margin-top: 0;
 }
+div#define.crowdCare-define h3{
+  font-size: 1.8em;
+  text-align: center;
+  font-size: 1.8em;
+  letter-spacing: .15em;
+  padding-bottom: 1em;
+  border: 1px solid #999;
+  margin: 1em;
+}
+
 div#define.crowdCare-define p{
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -119,17 +221,71 @@ div#define.crowdCare-define p{
   padding-bottom: 2em;
   font-size: 1.3em;
   line-height: 1.6;
-  text-align: center;
+  text-align: left;
   color: rgba(0,0,0,.5);
 }
-
+/*---------------Approach Section----------------------*/
+div#approach.moscow{
+  padding-bottom: .5em;
+}
+div#approach.moscow h2{
+  font-size: 2em;
+  letter-spacing: .1em;
+}
+div#approach.moscow div.moscow-tble{
+    margin: 2.5%;
+    background: aliceblue;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+div#approach.moscow div.moscow-tble h3{
+    font-size: 1.8em;
+    letter-spacing: .3em;
+    border: 3px inset rgba(0,0,0,.09);
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+}
+div#approach.moscow div.moscow-tble p{
+    text-align: center;
+    font-size: 1.4em;
+}
+div#approach.moscow div.moscow-tble ul{
+  font-size: 1.15em;
+}
+div#approach.moscow div.moscow-tble ul li span{
+  color: rgba(0,0,0,.6);
+  font-weight: bold;
+  font-size: 1.09em;
+}
+/*----------Discovery Section--------------*/
+div#discovery h2{
+  font-size: 2em;
+  margin-top: 0;
+}
+div#discovery h3{
+  text-align: center;
+  font-size: 1.8em;
+  letter-spacing: .15em;
+  padding-bottom: 1em;
+  border: 1px solid white;
+  margin: 1em;
+}
+div#discovery p{
+  font-size: 1.4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-bottom: 0;
+}
 /*---------------Images and Image Sections-------------*/
 div.indiv-proj-img.persona.crowdCareERD{
   background-color: white;
   padding-top: 0;
   padding-bottom: 0;
 }
-div.indiv-proj-img.persona.crowdCareERD h3{
+div.indiv-proj-img.persona.crowdCareERD h3, div.indiv-proj-img.persona h3{
     background-color: rgba(103, 58, 183, 0.12);
     padding-top: .5em;
     padding-bottom: .5em;
@@ -141,6 +297,20 @@ div.indiv-proj-img.persona.crowdCareERD img{
   padding-top: 3em;
   padding-bottom: 3em;
 }
+div.indiv-proj-img.persona{
+  margin-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+  padding-top: 0;
+}
+div.indiv-proj-img.cards h3{
+  background-color: rgba(0,0,0,.1);
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+}
+
 /*-------------Future Development Section-----------------*/
 div#future-plans h2{
   font-size: 2em;

@@ -77,8 +77,8 @@
           </p>
         </div><!--end overview-->
 
-        <div id='challenge'>
-          <h2>CHALLENGES</h2>
+        <div id='challenge' class='crowdCareChallenge'>
+          <h2 class='crowdCareChallenge-h2'>CHALLENGES</h2>
            <p>As a team, one of our challenges, out of the gate was with our the first API we attempted to utilize. Lack of documentation and explanation of requirements created a major hurdle, when we attempted to utilize the API. Luckily, we found the petfinder API, which has much better documentation. While the petfinder API proved to be a better solution for our app, we did encounter a challenge with the image data. Given that the petfinder API collects data from a database of over 300,000 pets and 11,000 animal welfare organizations, there was no set standard for image quality. We encountered documents containing images of varying resolution and size, which made our goal of providing a clean visual experience, a bit of a challenge. When all was said and done, we found that certain image positions in the array of objects returned, were of higher quality than others, but there was no real consistency to speak of.</p>
 
            <p>Another major hurdle was learning how to navigate the team's code. Throughout the development cycle of our app, it became very apparent how important readable code is. This proved to be a valuable learning experience, early on. Luckily, our team wrote relatively clean code, minimizing our potential issues.
@@ -87,38 +87,42 @@
 
         <div id='approach' class='moscow'>
           <h2>THE APPROACH</h2>
-          <h3>MOSCOW</h3>
-          <p>We approached creating this app with the MVP in mind. We utilized a MOSCOW strategy for development.
-          </p>
-          <ul>
-            <li>Mo - Must Have: What does this app absolutely HAVE TO HAVE in order to function properly? This is also known as the MVP.</li>
-            <li>S -  Should Have: This functionality is what the app should have, based on what a user expects to see in a pet adoption app. This is based on the products that have already paved the way in the market space. Users have seen certain features on similar apps, so this is their "norm".
-            </li>
-            <li>Co - Could Have: These are the "bells and whistles" features that could be added to increase the WOW factor of our app. These will only be implemented after the Must Haves and Should Haves are fleshed out, and solidly working.
-            </li>
-            <li>W -  Won't Have: Generally, these are the ideas akin to "Let's create an app that's a mash up of Facebook and... all of Google... and let's do it in a couple of days!" In other words, these are features that are placed in the Ice Box.</li>
-          </ul>
+          <div class='moscow-tble'>
+            <h3>MOSCOW</h3>
+            <p>We approached creating this app with the MVP in mind. We utilized a MOSCOW strategy for development.
+            </p>
+            <ul>
+              <li><span>Mo - Must Have:</span> What does this app absolutely HAVE TO HAVE in order to function properly? This is also known as the MVP.</li>
+              <li><span>S -  Should Have:</span> This functionality is what the app should have, based on what a user expects to see in a pet adoption app. This is based on the products that have already paved the way in the market space. Users have seen certain features on similar apps, so this is their "norm".
+              </li>
+              <li><span>Co - Could Have:</span> These are the "bells and whistles" features that could be added to increase the WOW factor of our app. These will only be implemented after the Must Haves and Should Haves are fleshed out, and solidly working.
+              </li>
+              <li><span>W -  Won't Have:</span>W -  Won't Have: Generally, these are the ideas akin to "Let's create an app that's a mash up of Facebook and... all of Google... and let's do it in a couple of days!" In other words, these are features that are placed in the Ice Box.</li>
+            </ul>
+          </div><!--end moscow-tble-->
         </div><!--end of approach-->
 
-        <div class='tools'>
-          <h3><span><img src="images/tools.png" alt="tools"></span><span>    </span>Technologies</h3>
-          <ul>
-            <li>Javascript &amp jQuery</li>
-            <li>$.ajax</li>
-            <li>JSON</li>
-            <li>Node.js</li>
-            <li>npm</li>
-            <li>Express</li>
-            <li>EJS</li>
-            <li>HTML &amp CSS</li>
-            <li>MongoDB</li>
-            <li>mLab</li>
-            <li>Mongoose</li>
-            <li>Passport &amp Passport-Local</li>
-            <li>Heroku</li>
-            <li>Git &amp GitHub</li>
-            <li>Lucidchart</li>
-          </ul>
+        <div class='tools crowdCareTools'>
+          <div class='tools-inset'>
+            <h3><span><img src="images/tools.png" alt="tools"></span><span>    </span>Technologies</h3>
+            <ul>
+              <li>Javascript &amp jQuery</li>
+              <li>$.ajax</li>
+              <li>JSON</li>
+              <li>Node.js</li>
+              <li>npm</li>
+              <li>Express</li>
+              <li>EJS</li>
+              <li>HTML &amp CSS</li>
+              <li>MongoDB</li>
+              <li>mLab</li>
+              <li>Mongoose</li>
+              <li>Passport &amp Passport-Local</li>
+              <li>Heroku</li>
+              <li>Git &amp GitHub</li>
+              <li>Lucidchart</li>
+            </ul>
+          </div><!--end tools-inset-->
         </div><!--end tools-->
 
 
@@ -132,7 +136,7 @@
         </div><!--end discovery-->
 
 
-        <div id='define'>
+        <div id='define' class='crowdCare-define'>
           <h2>USER FLOWS</h2>
           <h3>Planning before Coding</h3>
           <p>I encouraged my team to think through and plan out HOW our user would use our app BEFORE coding the app. Through our discussions and whiteboarding exercises, we came to an understanding of who our user was, as well as how they would navigate through the Take Me Home App. I created a series of User Flows and Wireframes as a guideline to reference when developing our app.
@@ -154,17 +158,17 @@
         </div><!--end of indiv-proj-img-->
 
 
-        <div class='indiv-proj-img cards sitemap'>
+        <div class='indiv-proj-img cards'>
           <h3>Wireframe - Pet Profile</h3>
           <img src="/images/petProfile.png" alt="Pet Profile">
         </div><!--end of indiv-proj-img-->
 
-         <div class='indiv-proj-img'>
+         <div class='indiv-proj-img cards'>
           <h3>Wireframe - Shelter Info.</h3>
           <img src="/images/shelterInfo.png" alt="Shelter Info">
         </div><!--end of indiv-proj-img-->
 
-        <div class='indiv-proj-img sitemap'>
+        <div class='indiv-proj-img cards'>
           <h3>Wireframe - My Liked Pets</h3>
           <img src="/images/myLikedPets.png" alt="My Liked Pets">
         </div><!--end of indiv-proj-img-->
