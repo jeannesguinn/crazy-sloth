@@ -51,12 +51,12 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <header class='proj-page'>
+   <!--  <header class='proj-page'>
       <hgroup>
       <h1>JEANNE GUINN</h1>
       <h2>UX DESIGNER  |  WEB DEVELOPER</h2>
       </hgroup>
-    </header>
+    </header> -->
 
     <!-- page content here -->
     <div id="content">
@@ -79,11 +79,20 @@
 
         <div id='challenge' class='crowdCareChallenge'>
           <h2 class='crowdCareChallenge-h2'>CHALLENGES</h2>
-           <p>Initially, we encountered a bit of a challenge, when attempting to implement our state machine via a readily available RubyGem. Once implemented, we found that the gem was deprecated and would not work with our current version of Rails. We solved this challenge by rolling our own state machine, to transition the state of our current tasks inside of Projects.
-          </p>
+          <div class='chal-mobile'>
+             <p>Initially, we encountered a bit of a challenge, when attempting to implement our state machine via a readily available RubyGem. Once implemented, we found that the gem was deprecated and would not work with our current version of Rails. We solved this challenge by rolling our own state machine, to transition the state of our current tasks inside of Projects.
+            </p>
 
-           <p>One of our major challenges in our project was not with Rails, rather with our CSS styling. After developing our own styles and grid system, we found ourselves, converting over to Bootstrap, due to time and lack of our own documentation. We found this to be both necessary and challenging, as we needed to find a system, where we could rely on convention, but at the same time, not begin from ground zero with styling. We found that we lost some styling control, which was troublesome, yet gained a standard method of styling, so that we could all work on implementation, as a team.
-          </p>
+             <p>One of our major challenges in our project was not with Rails, rather with our CSS styling. After developing our own styles and grid system, we found ourselves, converting over to Bootstrap, due to time and lack of our own documentation. We found this to be both necessary and challenging, as we needed to find a system, where we could rely on convention, but at the same time, not begin from ground zero with styling. We found that we lost some styling control, which was troublesome, yet gained a standard method of styling, so that we could all work on implementation, as a team.
+            </p>
+          </div><!--end of chal-mobile-->
+          <div class='chal-desktop'>
+            <ul>
+              <li>Initially, we encountered a bit of a challenge, when attempting to implement our state machine via a readily available RubyGem. Once implemented, we found that the gem was deprecated and would not work with our current version of Rails. We solved this challenge by rolling our own state machine, to transition the state of our current tasks inside of Projects.</li>
+
+              <li>One of our major challenges in our project was not with Rails, rather with our CSS styling. After developing our own styles and grid system, we found ourselves, converting over to Bootstrap, due to time and lack of our own documentation. We found this to be both necessary and challenging, as we needed to find a system, where we could rely on convention, but at the same time, not begin from ground zero with styling. We found that we lost some styling control, which was troublesome, yet gained a standard method of styling, so that we could all work on implementation, as a team.</li>
+            </ul>
+          </div><!--end of chal-desktop-->
         </div><!--end of challenge-->
 
         <div id='approach' class='moscow'>
@@ -93,33 +102,35 @@
             <p>We approached creating this app with the MVP in mind. We utilized a MOSCOW strategy for development.
             </p>
             <ul>
-              <li>Mo - Must Have: What does this app absolutely HAVE TO HAVE in order to function properly? This is also known as the MVP.</li>
-              <li>S -  Should Have: This functionality is what the app should have, based on what a user expects to see in a pet adoption app. This is based on the products that have already paved the way in the market space. Users have seen certain features on similar apps, so this is their "norm".
+              <li><span>Mo - Must Have:</span> What does this app absolutely HAVE TO HAVE in order to function properly? This is also known as the MVP.</li>
+              <li><span>S -  Should Have: </span>This functionality is what the app should have, based on what a user expects to see in a pet adoption app. This is based on the products that have already paved the way in the market space. Users have seen certain features on similar apps, so this is their "norm".
               </li>
-              <li>Co - Could Have: These are the "bells and whistles" features that could be added to increase the WOW factor of our app. These will only be implemented after the Must Haves and Should Haves are fleshed out, and solidly working.
+              <li><span>Co - Could Have:</span> These are the "bells and whistles" features that could be added to increase the WOW factor of our app. These will only be implemented after the Must Haves and Should Haves are fleshed out, and solidly working.
               </li>
-              <li>W -  Won't Have: Generally, these are the ideas akin to "Let's create an app that's a mash up of Facebook and... all of Google... and let's do it in a couple of days!" In other words, these are features that are placed in the Ice Box.</li>
+              <li><span>W -  Won't Have:</span> Generally, these are the ideas akin to "Let's create an app that's a mash up of Facebook and... all of Google... and let's do it in a couple of days!" In other words, these are features that are placed in the Ice Box.</li>
             </ul>
           </div><!--end moscow-tble-->
         </div><!--end of approach-->
 
         <div class='tools crowdCareTools'>
-          <div class='tools-inset'>
+          <div class='tools-inset wide'>
             <h3><span><img src="images/tools.png" alt="tools"></span><span>    </span>Technologies</h3>
-            <ul>
-              <li>Ruby &amp Ruby on Rails</li>
-              <li>Ruby Gems</li>
-              <li>PostgreSQL</li>
-              <li>Active Record </li>
-              <li>JavaScript &amp jQuery</li>
-              <li>$.ajax</li>
-              <li>ERB</li>
-              <li>HTML, CSS &amp SASS</li>
-              <li>Devise</li>
-              <li>Heroku</li>
-              <li>Git &amp GitHub</li>
-              <li>Lucidchart</li>
-            </ul>
+            <div class='tools-desktop-ul'>
+              <ul>
+                <li>Ruby &amp Ruby on Rails</li>
+                <li>Ruby Gems</li>
+                <li>PostgreSQL</li>
+                <li>Active Record </li>
+                <li>JavaScript &amp jQuery</li>
+                <li>$.ajax</li>
+                <li>ERB</li>
+                <li>HTML, CSS &amp SASS</li>
+                <li>Devise</li>
+                <li>Heroku</li>
+                <li>Git &amp GitHub</li>
+                <li>Lucidchart</li>
+              </ul>
+            </div><!--tools-desktop-ul-->
           </div><!--end tools-inset-->
         </div><!--end tools-->
 

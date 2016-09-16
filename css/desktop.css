@@ -42,9 +42,9 @@ nav{
   font-family: 'Raleway', sans-serif;
 
 }
-nav ul{
+nav#top ul{
   text-transform: uppercase;
-  font-size: 1.0em;
+  font-size: .5em;
   letter-spacing: .2em;
 }
 nav ul li{
@@ -52,19 +52,192 @@ nav ul li{
 }
 
 
+
+
 /*-----CONTENT -----*/
 #content{
   min-height: 5em;
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
+  margin: 0 auto;
 }
 #content h1{
   letter-spacing: .35em;
   font-size: 1.3em;
   padding-top: .8em;
 }
+div#content div.mobile-wrapper h1.proj-h1{
+  padding-top: 10%;
+  font-size: 3em;
+  letter-spacing: .2em;
+}
+
+div#trueSpirit-mobile.indiv-proj-wrapper a img{
+  width: 60%;
+}
+/*------------Overview Section---------------*/
+div.overview h2{
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+div.overview p{
+  padding-bottom: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  line-height: 1.65;
+}
+
+/*---------Challenges Section-----------------*/
+div#challenge.crowdCareChallenge{
+  background-color: rgba(0,0,0,.1);
+}
+div#challenge.crowdCareChallenge h2.crowdCareChallenge-h2{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  letter-spacing: .25em;
+  font-size: 2.5em;
+}
+.chal-mobile{
+  display: none;
+}
+.chal-desktop{
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+}
+div#challenge.crowdCareChallenge div.chal-desktop ul li{
+  font-size: 1.3em;
+  padding-bottom: 1.5em;
+}
+.chal-desktop ul{
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+.chal-desktop ul li{
+  font-size: 1.3em;
+  padding-bottom: 1.5em;
+  line-height: 1.5;
+}
+div#challenge.crowdCareChallenge div.chal-desktop ul{
+  margin-bottom: 0;
+}
+/*----------Approach Section-------------*/
+div#approach.moscow h2{
+  font-size: 2.5em;
+  letter-spacing: .2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+div#approach.moscow div.moscow-tble{
+  background-color: white;
+  margin: 0;
+  width: 80%;
+  margin-left: 10%;
+}
+div#approach.moscow{
+  background-color: white;
+}
+div#approach.moscow div.moscow-tble h3{
+  font-size: 2em;
+  line-height: 3;
+  border: 4px inset rgba(0,0,0,.09);
+}
+div#approach.moscow div.moscow-tble p{
+  font-size: 1.6em;
+}
+div#approach.moscow div.moscow-tble ul{
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+div#approach.moscow ul li{
+  font-size: 1.3em;
+  padding-bottom: 1em;
+}
+/*------- Tools Section-------*/
+div.tools.crowdCareTools{
+    margin: 0;
+    padding: 4em;
+    background-color: white;
+}
+div.tools.crowdCareTools div.tools-inset{
+  width: 40%;
+  margin-left: 30%;
+  background-color: rgba(34,34,34,.30);
+  color: white;
+}
+div.tools.crowdCareTools div.tools-inset h3{
+  text-align: center;
+  padding-top: 3em;
+}
+.tools-desktop-ul{
+  width: 60%;
+  margin-left: 20%;
+  text-align: left;
+}
+div.tools.crowdCareTools div.tools-inset.wide{
+  width: 70%;
+  margin-left: 15%;
+}
+div.tools.crowdCareTools div.tools-inset.wide div.tools-desktop-ul{
+  width: 40%;
+  margin-left: 30%;
+}
+div.tools.crowdCareTools{
+  padding-left: 0;
+  padding-right: 0;
+  background-color: rgba(34,34,34,.30);
+}
+/*-------------- Define Section-------------*/
+
+div#define.crowdCare-define h2{
+  font-size: 2.5em;
+  padding-top: 2em;
+  background-color: rgba(0,0,0,.25);
+  padding-bottom: 2em;
+  margin-bottom: 0;
+}
+div#define.crowdCare-define p, div#future-plans p{
+  text-align: center;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  font-size: 1.6;
+  line-height: 1.8;
+}
+div.indiv-proj-img.persona.crowdCareERD.hide-mobile img{
+  padding: 5%;
+}
+/*------------Discovery Section--------------*/
+div#discovery.api{
+  background-color: rgba(0,0,0,.70);
+}
+div#discovery.api h2{
+  background-color: transparent;
+  font-size: 2.5em;
+  letter-spacing: .2em;
+}
+div#discovery.api p{
+  margin: 0;
+  padding-top: .8em;
+  font-size: 1.6em;
+}
 
 
+
+/*------Future Development Section-----------*/
+div#future-plans{
+  background-color: white;
+}
+div#future-plans h2{
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 2.5em;
+}
+/*---------------Back to Top Link------------*/
+div#trueSpirit-mobile.indiv-proj-wrapper h4{
+  font-size: 1.2em;
+  padding-bottom: 3em;
+}
 /*------PROJECT SPECIFIC DIVS----------------*/
 .tablet-proj-wrapper.clearfix{
   transition: opacity ease-in .4s;
@@ -85,7 +258,13 @@ nav ul li{
 div.tablet-wrapper div.view-all-link h4{
   padding-top: 29%;
 }
-
+/*------- HIDE SCREENS FOR MOBILE VIEW--------*/
+.hide-desktop{
+  display: none;
+}
+.hide-mobile{
+  display: block;
+}
 /*----- FOOTER -----*/
 
 

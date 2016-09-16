@@ -51,12 +51,12 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <header class='proj-page'>
+   <!--  <header class='proj-page'>
       <hgroup>
       <h1>JEANNE GUINN</h1>
       <h2>UX DESIGNER  |  WEB DEVELOPER</h2>
       </hgroup>
-    </header>
+    </header> -->
 
     <!-- page content here -->
     <div id="content">
@@ -78,29 +78,42 @@
 
         <div id='challenge' class='crowdCareChallenge'>
           <h2 class='crowdCareChallenge-h2'>CHALLENGES</h2>
-           <p>One of the major challenges of this project was our time constraint. The timeline for this project from start to finish was five days. While five days may be enough time to produce an app in a discipline one is familiar with, it is a borderline insane endeavor for one that knows nothing about the language or gaming platforms, to speak of.
-          </p>
+          <div class='chal-mobile'>
+             <p>One of the major challenges of this project was our time constraint. The timeline for this project from start to finish was five days. While five days may be enough time to produce an app in a discipline one is familiar with, it is a borderline insane endeavor for one that knows nothing about the language or gaming platforms, to speak of.
+            </p>
 
-           <p>The learning curve was an obvious challenge, but more so due to having no prior knowledge of gaming engines. While I hadn't programmed in C#, prior to this project, I found it to be less of a challenge than navigating Unity, itself.
-          </p>
+             <p>The learning curve was an obvious challenge, but more so due to having no prior knowledge of gaming engines. While I hadn't programmed in C#, prior to this project, I found it to be less of a challenge than navigating Unity, itself.
+            </p>
 
-          <p>My greatest challenge, should become a learning lesson for all Unity beginners. Thou shalt not watch tutorials from deprecated versions of Unity and expect new releases to perform the same. This was a HUGE learning lesson for me, as Unity 5 changed drastically from Unity 4 (both in layout and in scripting syntax structure). I cannot begin to tell you how many hours were spent beating my head against the wall with this one.</p>
+            <p>My greatest challenge, should become a learning lesson for all Unity beginners. Thou shalt not watch tutorials from deprecated versions of Unity and expect new releases to perform the same. This was a HUGE learning lesson for me, as Unity 5 changed drastically from Unity 4 (both in layout and in scripting syntax structure). I cannot begin to tell you how many hours were spent beating my head against the wall with this one.</p>
+          </div><!--end chal-mobile-->
+          <div class='chal-desktop'>
+            <ul>
+              <li>One of the major challenges of this project was our time constraint. The timeline for this project from start to finish was five days. While five days may be enough time to produce an app in a discipline one is familiar with, it is a borderline insane endeavor for one that knows nothing about the language or gaming platforms, to speak of.</li>
+              <li>
+                The learning curve was an obvious challenge, but more so due to having no prior knowledge of gaming engines. While I hadn't programmed in C#, prior to this project, I found it to be less of a challenge than navigating Unity, itself.
+              </li>
+              <li>My greatest challenge, should become a learning lesson for all Unity beginners. Thou shalt not watch tutorials from deprecated versions of Unity and expect new releases to perform the same. This was a HUGE learning lesson for me, as Unity 5 changed drastically from Unity 4 (both in layout and in scripting syntax structure). I cannot begin to tell you how many hours were spent beating my head against the wall with this one.</li>
+            </ul>
+          </div><!--end chal-desktop-->
         </div><!--end of challenge-->
 
         <div class='tools crowdCareTools'>
           <div class='tools-inset'>
             <h3><span><img src="images/tools.png" alt="tools"></span><span>    </span>Technologies</h3>
-            <ul>
-              <li>Unity5</li>
-              <li>Monodevelop</li>
-              <li>C#</li>
-              <li>Gimp</li>
-              <li>Adobe Photoshop CC</li>
-              <li>WebGL</li>
-              <li>gamebucket.io</li>
-              <li>Git &amp GitHub</li>
-              <li>Lucidchart</li>
-            </ul>
+            <div class='tools-desktop-ul'>
+              <ul>
+                <li>Unity5</li>
+                <li>Monodevelop</li>
+                <li>C#</li>
+                <li>Gimp</li>
+                <li>Adobe Photoshop CC</li>
+                <li>WebGL</li>
+                <li>gamebucket.io</li>
+                <li>Git &amp GitHub</li>
+                <li>Lucidchart</li>
+              </ul>
+            </div><!--end tools-desktop-ul-->
           </div><!--end tools-inset-->
         </div><!--end tools-->
 
@@ -110,10 +123,14 @@
           </p>
         </div><!--end define-->
 
-        <div class='indiv-proj-img persona crowdCareERD'>
+        <div class='indiv-proj-img persona crowdCareERD hide-desktop'>
           <h3>Game Level Scene Flow</h3>
           <img src="/images/SpaceBarScreenFlow.png" alt="Game Level Flow">
         </div><!--end of indiv-proj-img-->
+
+        <div class='indiv-proj-img persona crowdCareERD hide-mobile'>
+          <img src="/images/SpaceBarScreenFlow-lg.png" alt="Game Level Flow">
+        </div><!--end img for game scene flow-->
 
         <div id='future-plans'>
           <h2>Future Development Plans</h2>

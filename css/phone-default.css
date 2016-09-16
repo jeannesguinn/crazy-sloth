@@ -294,6 +294,9 @@ div#challenge.crowdCareChallenge h2.crowdCareChallenge-h2{
   padding-top: 1em;
   padding-bottom: 1em;
 }
+.chal-desktop{
+  display: none;
+}
 div#sketching h2{
     padding-top: 1.5em;
     background-color: rgba(0,0,0,.8);
@@ -663,7 +666,9 @@ div#contact-mobile.contact-wrapper p a:hover{
 .hide{
   display: none;
 }
-
+.hide-mobile{
+  display: none;
+}
 /*---- hide side by side images on phone -----*/
 div.img-2up-container.clearfix{
   display: none;

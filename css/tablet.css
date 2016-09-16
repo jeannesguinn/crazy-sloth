@@ -117,6 +117,9 @@ div#challenge.crowdCareChallenge h2.chal-h2{
 div#challenge.crowdCareChallenge div.tablet-ul{
   padding-top: 1.5em;
 }
+.chal-desktop{
+  display: none;
+}
 /*------------Approach Section---------------*/
 div#approach h2{
   font-size: 2em;
@@ -469,7 +472,7 @@ div.indiv-proj-img.persona.crowdCareERD{
     padding-bottom: 0;
 }
 div.indiv-proj-img.persona.crowdCareERD h3, div.indiv-proj-img.persona h3{
-    background-color: rgba(103, 58, 183, 0.12);
+    background-color: rgba(96,125,139,.42);
     padding-top: .5em;
     padding-bottom: .5em;
     font-size: 1.3em;
@@ -651,6 +654,10 @@ div.view-all-link a:hover{
   display:none;
 }*/
 div.tablet-hide{
+  display: none;
+}
+
+.hide-mobile{
   display: none;
 }
 /*----- FOOTER -----*/
