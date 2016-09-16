@@ -196,12 +196,15 @@ div#define.crowdCare-define h2{
   padding-bottom: 2em;
   margin-bottom: 0;
 }
-div#define.crowdCare-define p, div#future-plans p{
+div#define.crowdCare-define p{
   text-align: center;
+
+}
+div#define.crowdCare-define p, div#future-plans p{
   padding-left: 2.5em;
   padding-right: 2.5em;
-  font-size: 1.6;
-  line-height: 1.8;
+  font-size: 1.6em;
+  line-height: 1.6;
 }
 div.indiv-proj-img.persona.crowdCareERD.hide-mobile img{
   padding: 5%;
@@ -221,17 +224,57 @@ div#discovery.api p{
   font-size: 1.6em;
 }
 
+/*------------Define (ERD Section)----------------*/
+div.indiv-proj-img.persona.crowdCareERD img{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 6em;
+}
+div#define.crowdCare-define{
+  background-color: transparent;
+}
+/*----------Wires Section--------------------*/
+div#site-design.crowdCareWires{
+  background-color: rgba(0,0,0,.75);
+}
+div#site-design.crowdCareWires h2{
+  background-color: transparent;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 0;
+  font-size: 2.5em;
+}
+div#site-design.crowdCareWires p{
+  text-align: center;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  font-size: 1.6em;
+  line-height: 1.6;
+}
+div.indiv-proj-img.cards{
+  background-color: rgba(0,0,0,.75);
+}
+div.indiv-proj-img.cards{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
 
 
 /*------Future Development Section-----------*/
 div#future-plans{
   background-color: white;
+  padding-bottom: 4em;
 }
 div#future-plans h2{
   margin: 0;
   padding-top: 2em;
   padding-bottom: 2em;
   font-size: 2.5em;
+}
+div#future-plans p{
+  text-align: left;
+  padding-bottom: 0;
 }
 /*---------------Back to Top Link------------*/
 div#trueSpirit-mobile.indiv-proj-wrapper h4{
