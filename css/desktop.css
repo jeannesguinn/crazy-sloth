@@ -121,6 +121,9 @@ div#challenge.crowdCareChallenge div.chal-desktop ul li{
 div#challenge.crowdCareChallenge div.chal-desktop ul{
   margin-bottom: 0;
 }
+div#challenge.crowdCareChallenge.takeMeHome-chal{
+  padding-bottom: 2em;
+}
 /*----------Approach Section-------------*/
 div#approach.moscow h2{
   font-size: 2.5em;
@@ -223,7 +226,47 @@ div#discovery.api p{
   padding-top: .8em;
   font-size: 1.6em;
 }
-
+div#discovery p.api-p1{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
+  margin-top: 0;
+}
+div#discovery p.api-p2{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 0;
+  margin-top: 0;
+}
+h3.takeMeHome-uf{
+  background-color: rgba(0,0,0,.07);
+  color: rgba(0,0,0,.55);
+  font-size: 2em;
+  font-weight: bold;
+}
+div#define.crowdCare-define h3.takeMeHome-uf{
+    border: none;
+}
+div#define.crowdCare-define.takeMeHome-define{
+  background-color: rgba(0,0,0,.07);
+}
+div.indiv-proj-img.takeMeHome-ufimg{
+    background-color: rgba(0,0,0,.07);
+}
+div.indiv-proj-img.takeMeHome-ufimg img{
+  padding: 2% 5% 10% 5%;
+}
+/*------------Site Design Section-----------------*/
+div#site-design h2.takeMeHome-sd{
+  margin: 0;
+  padding: 2em 0 2em 0;
+  font-size: 2.5em;
+  letter-spacing: .2em;
+  background-color: rgba(0,0,0,.3);
+}
+div.indiv-proj-img.tmh-sd{
+  padding: 5%;
+}
 /*------------Define (ERD Section)----------------*/
 div.indiv-proj-img.persona.crowdCareERD img{
   padding-left: 5%;
