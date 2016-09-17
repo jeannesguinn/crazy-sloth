@@ -4,7 +4,7 @@
 
 /*-----WRAPPER -----*/
   #wrapper {
-
+    background-color: rgba(34,34,34, .95);
   }
 
 /*-----CONTAINER -----*/
@@ -12,7 +12,7 @@
     margin: 0 auto;
     border: none;
     min-width: 1141px;
-    max-width: 2500px;
+    max-width: 1248px;
   }
 
 /*-----HEADER -----*/
@@ -74,6 +74,13 @@ div#content div.mobile-wrapper h1.proj-h1{
 div#trueSpirit-mobile.indiv-proj-wrapper a img{
   width: 60%;
 }
+div#trueSpirit-mobile.indiv-proj-wrapper img.ts-img1{
+  width: 50%;
+}
+div#content div.mobile-wrapper p.proj-intro.ts-intro{
+  margin-bottom: 0;
+  padding-bottom: 2em;
+}
 /*------------Overview Section---------------*/
 div.overview h2{
   margin: 0;
@@ -85,8 +92,11 @@ div.overview p{
   padding-left: 2em;
   padding-right: 2em;
   line-height: 1.65;
+  margin: 0;
 }
-
+div.overview p.ts-overview{
+   font-size: 1.4em;
+}
 /*---------Challenges Section-----------------*/
 div#challenge.crowdCareChallenge{
   background-color: rgba(0,0,0,.1);
@@ -109,11 +119,11 @@ div#challenge.crowdCareChallenge div.chal-desktop ul li{
   font-size: 1.3em;
   padding-bottom: 1.5em;
 }
-.chal-desktop ul{
+.chal-desktop ul, div#role.ts-role div.tablet-ul ul{
   padding-bottom: 4em;
   padding-top: 3em;
 }
-.chal-desktop ul li{
+.chal-desktop ul li, div#role.ts-role div.tablet-ul ul li{
   font-size: 1.3em;
   padding-bottom: 1.5em;
   line-height: 1.5;
@@ -123,6 +133,36 @@ div#challenge.crowdCareChallenge div.chal-desktop ul{
 }
 div#challenge.crowdCareChallenge.takeMeHome-chal{
   padding-bottom: 2em;
+}
+div#challenge.crowdCareChallenge div.tablet-ul.ts-chal{
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+div#challenge.crowdCareChallenge div.tablet-ul.ts-chal ul li{
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+/*----------Role Section-----------------*/
+div#role.ts-role h2, div#challenge.crowdCareChallenge h2.chal-h2{
+  font-size: 2.5em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+div#role.ts-role p{
+  font-size: 1.6em;
+  text-align: center;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 2.5em;
+  padding-bottom: 3em;
+}
+div#role.ts-role div.tablet-ul{
+  width: 80%;
+  margin-left: 10%;
 }
 /*----------Approach Section-------------*/
 div#approach.moscow h2{
@@ -155,6 +195,16 @@ div#approach.moscow div.moscow-tble ul{
 div#approach.moscow ul li{
   font-size: 1.3em;
   padding-bottom: 1em;
+}
+div#approach.ts-app{
+  background-color: rgba(158, 158, 158, .85);
+}
+div#approach.ts-app h2{
+    color: rgba(255,255,255,.85);
+    font-size: 2.5em;
+    letter-spacing: .2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 /*------- Tools Section-------*/
 div.tools.crowdCareTools{
@@ -190,6 +240,16 @@ div.tools.crowdCareTools{
   padding-right: 0;
   background-color: rgba(34,34,34,.30);
 }
+.col-2.clearfix div.tools h3, .col-2.clearfix div.tools ul{
+  margin-left: 30%;
+}
+.col-2.clearfix div.methods h3, .col-2.clearfix div.methods ul{
+  margin-right: 30%;
+}
+.col-2.clearfix div.tools ul li, .col-2.clearfix div.methods ul li{
+  font-size: 1.4em;
+  line-height: 1.5;
+}
 /*-------------- Define Section-------------*/
 
 div#define.crowdCare-define h2{
@@ -216,15 +276,39 @@ div.indiv-proj-img.persona.crowdCareERD.hide-mobile img{
 div#discovery.api{
   background-color: rgba(0,0,0,.70);
 }
+div#discovery.ts-discovery{
+  background-color: white;
+}
 div#discovery.api h2{
   background-color: transparent;
   font-size: 2.5em;
   letter-spacing: .2em;
 }
-div#discovery.api p{
+div#discovery.ts-discovery h2{
+  font-size: 2.5em;
+  letter-spacing: .2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: rgba(0,0,0,.65);
+  color: rgba(255,255,255,.9);
+}
+div#discovery.ts-discovery h3{
+  font-size: 2em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  color: rgba(0,0,0,.6);
+  border: 2px inset rgba(0,0,0,.6);
+}
+div#discovery.api p, div#discovery.ts-discovery p{
   margin: 0;
   padding-top: .8em;
-  font-size: 1.6em;
+}
+div#discovery.ts-discovery p{
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  line-height: 1.6;
+  font-size: 1.8em;
+  color: rgba(0,0,0,.6);
 }
 div#discovery p.api-p1{
   padding-left: 2.5em;
@@ -237,6 +321,23 @@ div#discovery p.api-p2{
   padding-right: 2.5em;
   padding-top: 0;
   margin-top: 0;
+}
+div#discovery.bandmeeter-discovery-wrapper{
+  background-color: rgba(0,0,0,.85);
+}
+div#discovery h2.bandmeeter-discovery{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: 2em;
+    letter-spacing: .2em;
+    line-height: 1.8;
+}
+div#discovery h3.bm-discovery-h3-1, div#discovery h3.bm-discovery-h3-2, div#discovery.bandmeeter-discovery-wrapper p.bm-discovery-p1, div#discovery.bandmeeter-discovery-wrapper p.bm-discovery-p2{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+div.indiv-proj-img.bandmeeter-comp img{
+  width: 50%;
 }
 h3.takeMeHome-uf{
   background-color: rgba(0,0,0,.07);
@@ -256,6 +357,17 @@ div.indiv-proj-img.takeMeHome-ufimg{
 div.indiv-proj-img.takeMeHome-ufimg img{
   padding: 2% 5% 10% 5%;
 }
+div#define.crowdCare-define h3.ts-define{
+  margin-right: 2.5em;
+  margin-left: 2.5em;
+}
+div#define.crowdCare-define p.ts-define{
+  text-align: left;
+}
+/*-----------Competitive Analysis Section---------*/
+div.img-2up-container.clearfix{
+  background-color: white;
+}
 /*------------Site Design Section-----------------*/
 div#site-design h2.takeMeHome-sd{
   margin: 0;
@@ -265,6 +377,32 @@ div#site-design h2.takeMeHome-sd{
   background-color: rgba(0,0,0,.3);
 }
 div.indiv-proj-img.tmh-sd{
+  padding: 5%;
+}
+div#site-design.ts-design h2{
+  font-size: 2.5em;
+  letter-spacing: .2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+div#site-design.ts-design h3{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-size: 2em;
+  line-height: 1.6;
+}
+div#site-design.ts-design p{
+  font-size: 1.6em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+/*--------------Persona Section----------------*/
+div.indiv-proj-img.persona.ux h3{
+  font-size: 1.6em;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+div.indiv-proj-img.persona.ux img{
   padding: 5%;
 }
 /*------------Define (ERD Section)----------------*/
@@ -343,6 +481,17 @@ div#trueSpirit-mobile.indiv-proj-wrapper h4{
 }
 div.tablet-wrapper div.view-all-link h4{
   padding-top: 29%;
+}
+/*-------Prototypes Section-------------*/
+div#prototypes h2{
+  margin:0;
+}
+div#prototypes p{
+  margin: 0;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  background: inherit;
+  text-align: center;
 }
 /*------- HIDE SCREENS FOR MOBILE VIEW--------*/
 .hide-desktop{
