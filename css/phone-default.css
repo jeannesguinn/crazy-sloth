@@ -84,10 +84,13 @@ nav ul li a {
   padding: 0 5px;
   text-decoration: none;
   color: white;
+  transition: color ease-in .4s;
 }
 nav ul li a:hover {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, .6);
 }
+
+
 
 /*--- Responsive Nav - Uses jQuery -------*/
 #responsive-nav {
