@@ -771,6 +771,15 @@ div#index-teaser div.recent-proj div.tmh-teaser{
   color: #999;
   padding:1em;
   border: 3px solid rgba(0,0,0,.2);
+  transition: opacity ease-in-out 1s;
+
+}
+div#index-teaser div.recent-proj div.tmh-teaser a{
+  text-decoration: none;
+  color: #999;
+}
+div#index-teaser div.recent-proj div.tmh-teaser:hover{
+  opacity: .6;
 }
 div#index-teaser div.recent-proj div.tmh-teaser h2{
   font-size: 1.2em;
@@ -783,6 +792,7 @@ div#index-teaser div.recent-proj div.tmh-teaser img{
   margin-top: -1em;
   margin-bottom: -2.0em;
 }
+
 div#index-teaser.clearfix p span img, div.mobile-wrapper p span img{
     width: 4%;
     opacity: .7;
@@ -820,6 +830,8 @@ div#contact-mobile.contact-wrapper{
 div#contact-mobile.contact-wrapper p{
   padding-bottom: 2em;
 }
+
+
 /*----- FOOTER -----*/
 
 
