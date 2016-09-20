@@ -17,8 +17,8 @@
 
 /*-----HEADER -----*/
 header{
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding-top: 11%;
+  padding-bottom: 11%;
 }
 div#container header hgroup h1{
   font-size: 3.4em;
@@ -98,6 +98,23 @@ div#content div.mobile-wrapper p.proj-intro.ts-intro{
 div#content div.mobile-wrapper p.proj-intro.bm-intro{
   font-size: 1.4em;
   margin-top: -3em;
+}
+
+/*-----------About Section--------------------*/
+div.mobile-wrapper h1{
+  margin: 0;
+}
+div#about-mobile.about-wrapper p{
+    margin: 0;
+    text-align: center;
+    line-height: 1.40;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1em;
+    padding-bottom: 4em;
+}
+div.about-img{
+  margin-bottom: -2.5em;
 }
 /*------------Overview Section---------------*/
 div.overview h2{
@@ -720,10 +737,14 @@ div#trueSpirit-mobile.indiv-proj-wrapper h4{
 .hide-mobile{
   display: block;
 }
+.tablet-wrapper{
+  display: none;
+}
 /*-----------TEASER SCREEN HOME---------------*/
 div#index-teaser.clearfix{
   width: 80%;
   margin-left: 10%;
+  padding-bottom: 4em;
 }
 div#index-teaser.clearfix h1{
     margin: 0;
@@ -732,6 +753,7 @@ div#index-teaser.clearfix h1{
     text-align: center;
     font-size: 1.6em;
     opacity: .8;
+    letter-spacing: .2em;
 }
 div.teaser-wrapper{
   background-color: rgba(34,34,34, .95);
@@ -749,7 +771,6 @@ div#index-teaser div.recent-proj div.tmh-teaser{
   color: #999;
   padding:1em;
   border: 3px solid rgba(0,0,0,.2);
-
 }
 div#index-teaser div.recent-proj div.tmh-teaser h2{
   font-size: 1.2em;
@@ -761,6 +782,43 @@ div#index-teaser div.recent-proj div.tmh-teaser img{
   width: 60%;
   margin-top: -1em;
   margin-bottom: -2.0em;
+}
+div#index-teaser.clearfix p span img, div.mobile-wrapper p span img{
+    width: 4%;
+    opacity: .7;
+    margin-left: 48%;
+    margin-top: -2.5em;
+}
+div#content div.mobile-wrapper div.about-me-desktop h1#about-me{
+  margin-bottom: 0;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 1.8em;
+  opacity: .8;
+  letter-spacing: .2em;
+}
+div#content div.mobile-wrapper div.about-me-desktop{
+  background-color: white;
+  padding-bottom: 2em;
+}
+div.about-img img{
+  width: 20%;
+  margin-left: 40%;
+}
+/*----------------Contact-------------------*/
+h1#contact-mobile{
+    margin-bottom: 0;
+    padding-top: 2em;
+    font-size: 1.6em;
+    letter-spacing: .25em;
+    padding-bottom: 2em;
+}
+div#contact-mobile.contact-wrapper{
+    width: 40%;
+    margin-left: 30%;
+}
+div#contact-mobile.contact-wrapper p{
+  padding-bottom: 2em;
 }
 /*----- FOOTER -----*/
 
