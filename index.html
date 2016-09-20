@@ -42,13 +42,12 @@
 <div id="container">
 
       <!-- page navigation links here -->
-    <nav>
+    <nav id='top'>
       <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">User Experience Design</a></li>
-        <li><a href="#">Web Develoment</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="#top">HOME</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact-mobile">CONTACT</a></li>
       </ul>
     </nav>
 
@@ -102,15 +101,17 @@
 
     <!-- projects view from home screen for mobile devices-->
       <div class='mobile-wrapper'>
-        <div class='proj-wrapper hide-desktop' id='ux-design'>
-          <h2>UX DESIGN PROJECTS</h2>
-        </div><!--end proj-wrapper-->
-
-       <div class='proj-wrapper hide-desktop' id='web-dev'>
-          <h2>WEB DEVELOPMENT PROJECTS</h2>
-        </div><!--end proj-wrapper-->
-
-      <div class='about-me-desktop'>
+        <a href="projects.html#ux-projects">
+          <div class='proj-wrapper hide-desktop' id='ux-design'>
+            <h2>UX DESIGN PROJECTS</h2>
+          </div><!--end proj-wrapper-->
+        </a>
+        <a href="projects.html#web-projects">
+         <div class='proj-wrapper hide-desktop' id='web-dev'>
+            <h2>WEB DEVELOPMENT PROJECTS</h2>
+          </div><!--end proj-wrapper-->
+        </a>
+      <div id='about' class='about-me-desktop'>
         <h1 id='about-me'>ABOUT ME</h1>
         <p><span><img src="/images/arrow-blkicon.png" alt="arrow icon"></span></p>
       </div><!--end about-me-desktop-->
@@ -129,38 +130,8 @@
           <p><a href="mailto:jeannesguinn@gmail.com?subject=portfolio inquiry"><span class="socicon-mail"></span></a></p>
           <p><a href="https://github.com/jeannesguinn"><span class="socicon-github"></span></a></p>
 
-
         </div>
       </div><!--end mobile-wrapper-->
-
-
-      <!-- projects teaser from home screen for tablets -->
-      <div class='tablet-wrapper'>
-        <div class='tablet-proj-wrapper clearfix' id='takeMeHomeTab'>
-          <h2>Take Me Home</h2>
-          <img src="/images/TakeMeHome450px.png" alt="Take Me Home">
-          <p>Web Development</p>
-        </div><!--end tablet-proj-wrapper-->
-
-        <div class='tablet-proj-wrapper clearfix' id='bandMeeterTab'>
-          <h2>Bandmeeter</h2>
-          <img src="/images/bandmeeter450px.png" alt="Bandmeeter">
-          <p>UX/UI Design</p>
-        </div><!--end tablet-proj-wrapper-->
-
-        <div class='tablet-proj-wrapper clearfix' id='trueSpirit'>
-          <h2>True Spirit</h2>
-          <img src="/images/TrueSpirit450px.png" alt="True Spirit">
-          <p>UX/UI Design</p>
-        </div><!--end tablet-proj-wrapper-->
-         <div class='view-all-link'>
-          <h4><a href="work.html">VIEW ALL PROJECTS</a></h4>
-        </div><!--end view-all-link-->
-      </div><!--end tablet-wrapper-->
-
-
-
-
 
 
 

@@ -7,13 +7,15 @@ html {-webkit-text-size-adjust: none; }
 /*----------- clearfix hack --------------------*/
 .clearfix{ overflow: auto; }
 
+
 .clearfix:after {
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
+
 
 /*-----BODY -----*/
 body {
@@ -89,6 +91,7 @@ nav ul li a {
 nav ul li a:hover {
   color: rgba(255, 255, 255, .6);
 }
+
 
 
 
@@ -644,6 +647,46 @@ div.indiv-proj-img.mockup img{
   margin-bottom: -4em;
 }
 
+/*index*/
+div#index-teaser.clearfix h1{
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div#index-teaser.clearfix p{
+    width: 4%;
+    margin-left: 48%;
+    margin-top: -2em;
+}
+.proj-wrapper#ux-design.hide-desktop, .proj-wrapper#web-dev.hide-desktop{
+  margin-top: 0;
+  width: 96%;
+  margin-left: 2%;
+  padding-top: .5em;
+}
+div.mobile-wrapper a{
+  text-decoration: none;
+}
+h1#about-me{
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+div#about.about-me-desktop{
+  background-color: white;
+}
+div#about.about-me-desktop p{
+  width: 4%;
+  margin-left: 48%;
+  margin-top: -.5em;
+  opacity: .7;
+  margin-bottom: -.2em;
+}
+div.about-img img{
+  margin-top: 0;
+  padding-top: 3em;
+}
 /*-------SOCIAL ICONS ----------*/
 .socicon-github, .socicon-linkedin, .socicon-mail{
   font-size: 1.6em;

@@ -648,7 +648,25 @@ div.view-all-link a:hover{
   background: rgba(255,255,255,.6);
   color: #222;
 }
-
+/*-----------------Projects Page --------------------------------*/
+div#ux-projects.ux-deco-wrapper.clearfix{
+   width: 90%;
+    margin-left: 5%;
+}
+.ux-proj-wrapper{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: .75em;
+}
+.ux-proj-wrapper img{
+  width: 80%;
+}
+.ux-proj-wrapper h2{
+  padding-bottom: 1em;
+}
+.ux-proj-wrapper p{
+  padding-top: 1.5em;
+}
 /*-----------------Hide the Mobile Projects View----------------------*/
 /*.mobile-wrapper{
   display:none;
@@ -660,6 +678,63 @@ div.tablet-hide{
 .hide-mobile{
   display: none;
 }
+/*------index page --------*/
+div#index-teaser.clearfix h1{
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div#index-teaser.clearfix p{
+    width: 4%;
+    margin-left: 48%;
+    margin-top: -2em;
+}
+.proj-wrapper#ux-design.hide-desktop, .proj-wrapper#web-dev.hide-desktop{
+  margin-top: 0;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: .5em;
+}
+div.mobile-wrapper a{
+  text-decoration: none;
+}
+h1#about-me{
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+div#about.about-me-desktop{
+  background-color: white;
+}
+div#about.about-me-desktop p{
+  width: 4%;
+  margin-left: 48%;
+  margin-top: -.5em;
+  opacity: .7;
+  margin-bottom: 0;
+}
+div.about-img img{
+  margin-top: 0;
+  padding-top: 3em;
+}
+div#about-mobile.about-wrapper p{
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 10%;
+    text-align: center;
+    line-height: 1.2;
+    padding-left: 10%;
+    margin-top: -1.5em;
+    padding-bottom: 3em;
+}
+div#contact-mobile.contact-wrapper{
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 /*----- FOOTER -----*/
 
 
