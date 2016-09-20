@@ -53,8 +53,14 @@ nav ul li{
 
 
 
-
 /*-----CONTENT -----*/
+
+
+
+
+div#content.index-content{
+  max-width: 1600px;
+ }
 #content{
   min-height: 5em;
   max-width: 960px;
@@ -715,20 +721,46 @@ div#trueSpirit-mobile.indiv-proj-wrapper h4{
   display: block;
 }
 /*-----------TEASER SCREEN HOME---------------*/
-div#index-teaser h2{
-  text-align: center;
+div#index-teaser.clearfix{
+  width: 80%;
+  margin-left: 10%;
 }
-div#index-teaser div.recent-proj div.tmh-teaser{
+div#index-teaser.clearfix h1{
+    margin: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.6em;
+    opacity: .8;
+}
+div.teaser-wrapper{
+  background-color: rgba(34,34,34, .95);
+  padding: 2%;
   width: 33.3333%;
   float: left;
+}
+div#index-teaser h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+div#index-teaser div.recent-proj div.tmh-teaser{
   background-color: white;
   text-align: center;
   color: #999;
+  padding:1em;
+  border: 3px solid rgba(0,0,0,.2);
+
+}
+div#index-teaser div.recent-proj div.tmh-teaser h2{
+  font-size: 1.2em;
+}
+div#index-teaser div.recent-proj div.tmh-teaser h3{
+  font-size: 1em;
 }
 div#index-teaser div.recent-proj div.tmh-teaser img{
   width: 60%;
-  margin-top: -3em;
-
+  margin-top: -1em;
+  margin-bottom: -2.0em;
 }
 /*----- FOOTER -----*/
 
