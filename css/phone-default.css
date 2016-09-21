@@ -744,7 +744,7 @@ div#future-plans h2{
   line-height: 1.5;
   padding-top: .75em;
   padding-bottom: .5em;
-  margin-top: .8em;
+  margin-top: 0;
 }
 div#define p, div#site-design p, div#wireframes p, div#future-plans p, div#bandmeeter-persona p, div#bandmeeter-emp p, div#scope p, div#bandmeeter-sitemap p{
   font-size: 1em;

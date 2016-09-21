@@ -129,9 +129,6 @@ div#trueSpirit-mobile.indiv-proj-wrapper a img{
   width: 55%;
   margin-top: -1.5em;
 }
-div#trueSpirit-mobile.indiv-proj-wrapper p{
-  margin-top: -.5em;
-}
 div#trueSpirit-mobile.indiv-proj-wrapper img.ts-img1{
   width: 50%;
 }
@@ -348,6 +345,7 @@ div.tools.crowdCareTools{
   padding-left: 0;
   padding-right: 0;
   background-color: rgba(34,34,34,.30);
+  width: 100%;
 }
 .col-2.clearfix div.tools h3, .col-2.clearfix div.tools ul{
   margin-left: 30%;
@@ -364,6 +362,20 @@ div.tools.crowdCareTools{
 div.col-2.clearfix{
   padding-top: 2em;
   padding-bottom: 0;
+  background-color: white;
+}
+div.col-2.clearfix div.tools{
+    width: 40%;
+    margin-left: 10%;
+    padding-left: 0;
+    float: left;
+    padding-right: 10%;
+}
+div.col-2.clearfix div.methods{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 0;
+    float: right;
 }
 /*-------------- Define Section-------------*/
 
@@ -442,7 +454,11 @@ div#discovery.ts-discovery h3{
   margin-left: 2.5em;
   margin-right: 2.5em;
   color: rgba(0,0,0,.6);
-  border: 2px inset rgba(0,0,0,.6);
+  border: 2px dotted rgba(0,0,0,.4);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 div#discovery.api p, div#discovery.ts-discovery p{
   margin: 0;
@@ -496,6 +512,7 @@ h3.takeMeHome-uf{
 }
 div#define.crowdCare-define h3.takeMeHome-uf{
     border: none;
+    padding-top: 1em;
 }
 div#define.crowdCare-define.takeMeHome-define{
   background-color: rgba(0,0,0,.07);
@@ -507,8 +524,11 @@ div.indiv-proj-img.takeMeHome-ufimg img{
   padding: 2% 5% 10% 5%;
 }
 div#define.crowdCare-define h3.ts-define{
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 2px dotted rgba(0,0,0,.3);
 }
 div#define.crowdCare-define p.ts-define{
   text-align: left;
@@ -543,6 +563,8 @@ div#site-design.ts-design h3{
   margin-right: 1.5em;
   font-size: 1.6em;
   line-height: 1.25;
+  padding-top: 1em;
+  border: 2px dotted rgba(255,255,255,.3);
 }
 div#site-design.ts-design p{
   font-size: 1em;
@@ -604,8 +626,10 @@ div#sketching h2{
 }
 div#discovery h3, div#site-design h3, div#sketching h3{
   font-size: 1.6em;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding-top: 1em;
+  border: 2px dotted rgba(255,255,255,.4);
 }
 div#discovery p, div#site-design p, div#sketching p{
   font-size: 1em;
@@ -661,7 +685,10 @@ div#wireframes p{
   padding-right: 2.5em;
 }
 div.indiv-proj-img.ts-wires{
-  padding: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 div#site-design.crowdCareWires p{
   text-align: center;
@@ -721,6 +748,7 @@ div#trueSpirit-mobile.indiv-proj-wrapper p.tmh-future-p2{
   padding-top: 1em;
 }
 
+
 /*---------------Back to Top Link------------*/
 div#trueSpirit-mobile.indiv-proj-wrapper h4{
   font-size: 1.2em;
@@ -728,7 +756,8 @@ div#trueSpirit-mobile.indiv-proj-wrapper h4{
 }
 
 div#trueSpirit-mobile.indiv-proj-wrapper h4.spacebar{
-  margin-top: -.5em;
+  margin-top: 0;
+  padding-top: 3em;
 
 }
 div#trueSpirit-mobile.indiv-proj-wrapper h4.spacebar a{
@@ -762,6 +791,7 @@ div#prototypes h2{
   margin:0;
 }
 div#prototypes p{
+  line-height: 1.4;
   margin: 0;
   padding-left: 2.5em;
   padding-right: 2.5em;
@@ -846,10 +876,10 @@ div#index-teaser div.recent-proj div.tmh-teaser img{
 }
 
 div#index-teaser.clearfix p span img, div.mobile-wrapper p span img{
-    width: 4%;
+    width: 2em;
     opacity: .7;
     margin-left: 48%;
-    margin-top: -2.5em;
+    margin-top: 0;
 }
 div#content div.mobile-wrapper div.about-me-desktop h1#about-me{
   margin-bottom: 0;
@@ -896,6 +926,9 @@ div#contact-mobile.contact-wrapper{
 }
 div#contact-mobile.contact-wrapper p{
   padding-bottom: 2em;
+}
+h1#contact-mobile.contact-proj{
+  padding-bottom: 0;
 }
 
 

@@ -649,9 +649,9 @@ div.view-all-link a:hover{
   color: #222;
 }
 /*-----------------Projects Page --------------------------------*/
-div#ux-projects.ux-deco-wrapper.clearfix{
+div#ux-projects.ux-deco-wrapper.clearfix, div#web-projects.ux-deco-wrapper.clearfix, div#web-projects-2.ux-deco-wrapper.clearfix{
    width: 90%;
-    margin-left: 5%;
+   margin-left: 5%;
 }
 .ux-proj-wrapper{
   width: 80%;
