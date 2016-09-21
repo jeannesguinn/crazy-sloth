@@ -261,25 +261,36 @@ div.overview{
   padding-top: .5em;
   padding-bottom: .5em;
   text-align: center;
-  padding-left: .8em;
-  padding-right: .8em;
-  font-size: 1.2em;
-  line-height: 1.50;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1em;
+  line-height: 1.40;
+}
+p.ts-overview.bm-overview{
+    margin: 0;
+    padding-bottom: 2em;
+    padding-top: .5em;
 }
 div.overview h2{
-  font-size: 1.8em;
+  font-size: 1.6em;
   text-transform: uppercase;
 }
 div#role, div#wireframes, div#future-plans{
   background-color: rgba(158,158,158,.15);
-  margin-top: -1.5em;
+  margin-top: 0;
   padding-bottom: .5em;
 }
 
 div#role.bandmeeter-role p{
   padding-left: 1em;
   padding-right: 1em;
+  font-size: 1em;
+  line-height: 1.4;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 1em;
 }
+
 div#approach{
   background-color: rgba(158,158,158,.35);
 }
@@ -292,6 +303,9 @@ div#challenge{
     margin-top: -1.5em;
     color: rgba(0,0,0,.65);
     padding-top: .5em;
+}
+div#challenge h2.chal-h2{
+  background-color: rgba(0,0,0,.12);
 }
 div#challenge.crowdCareChallenge{
   margin-top: 0;
@@ -307,17 +321,24 @@ div#challenge.crowdCareChallenge h2.crowdCareChallenge-h2{
   display: none;
 }
 div#sketching h2{
-    padding-top: 1.5em;
+    padding: 1em;
     background-color: rgba(0,0,0,.8);
     color: rgba(255,255,255,.9);
-    padding-bottom: 1em;
-    font-size: 1.8em;
+    font-size: 1.6em;
     letter-spacing: .09em;
+}
+div#sketching h3.bm-sketch-h3{
+    border: 1px dotted white;
+    margin: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 div#define.crowdCare-define h2{
   line-height: 1.5;
   padding-bottom: 1em;
   letter-spacing: .07em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 div#define.crowdCare-define p{
   margin-bottom: 0;
@@ -371,9 +392,12 @@ div.tools ul li, div.methods ul li, div#define ul li{
 }
 
 div#role h2, div#challenge h2, div#approach h2, div#define h2, div#site-design h2, div#wireframes h2, div#future-plans h2{
-    padding-top: .8em;
+    padding-top: 1em;
     font-size: 1.8em;
     letter-spacing: .09em;
+    margin: 0;
+    padding-bottom: 1em;
+
 }
 div#discovery.api h2{
   margin-top: 0;
@@ -381,14 +405,35 @@ div#discovery.api h2{
   padding-bottom: .5em;
   background-color: rgba(0,0,0,.4);
 }
+div#discovery h3.bm-discovery-h3-1, div#discovery h3.bm-discovery-h3-2{
+    border: 2px dotted;
+    margin: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    line-height: 1.4;
+}
+div#discovery p.bm-discovery-p1{
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin: 0;
+  line-height: 1.4;
+}
+div#discovery p.bm-discovery-p2{
+  padding-top: .5em;
+  padding-bottom: 0;
+  margin: 0;
+}
 div#discovery.api p{
     margin-bottom: 0;
     text-align: center;
 }
 div#site-design h2.second-h2, div#bandmeeter-persona h2.second-h2{
   font-size: 1.2em;
-  line-height: 1.4em;
-  padding-bottom: .5em;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  line-height: 1.5;
 }
 div#role p, div#challenge p{
     font-size: 1.2em;
@@ -398,11 +443,16 @@ div#role p, div#challenge p{
 }
 div#role ul, div#challenge ul, div#approach.moscow ul{
     text-align: left;
-    margin-right: .5em;
+    padding-right: 1em;
     line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
 div#role ul li, div#challenge ul li, div#approach.moscow ul li{
-    font-size: 1.2em;
+    font-size: 1em;
     padding-bottom: .5em;
     list-style-type: square;
 }
@@ -411,16 +461,19 @@ div#discovery, div#site-design, div#prototypes, div#sketching{
 }
 div#discovery h2, div#prototypes h2{
   background-color: rgba(0,0,0,.85);
-  font-size: 1.8em;
+  font-size: 1.6em;
   letter-spacing: .3em;
   color: rgba(255,255,255,.9);
-  line-height: 2.8em;
-  margin-top: 0;
+  line-height: 1.5;
+  margin: 0;
   text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 div#discovery.ts-discovery h3{
   text-align: center;
   line-height: 1.4em;
+  margin: 0;
 }
 div#discovery h2.bandmeeter-discovery{
   line-height: 1.5em;
@@ -451,13 +504,15 @@ div#approach.moscow ul{
   padding-bottom: 1.5em;
 }
 div#discovery h3, div#define h3, div#site-design h3, div#bandmeeter-persona h3, div#bandmeeter-emp h3, div#sketching h3, div#scope h3, div#bandmeeter-sitemap h3{
-  text-align: left;
+  text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 1.5em;
+  font-size: 1.4em;
   letter-spacing: .08em;
-  padding-top: 1em;
+  padding-top: 2em;
+  padding-bottom: .5em;
   text-transform: uppercase;
+  margin: 0;
 }
 div#site-design.crowdCareWires h2{
   margin-top: 0;
@@ -480,6 +535,15 @@ div#discovery p, div#prototypes p, div#sketching p{
 }
 div#discovery.ts-discovery p{
   margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+div#discovery.bandmeeter-discovery-wrapper{
+  padding-bottom: 2em;
+}
+div.indiv-proj-img.comp-analy{
+  margin-top: 0;
 }
 div#bandmeeter-persona{
   padding-bottom: 1em;
@@ -491,13 +555,13 @@ div#sketching{
 
 /*---image backgrounds -----*/
 div.indiv-proj-img.comp-analy{
-  margin-top: -1.139em;
-  padding: .8em;
+  padding: 1em;
   background-color: rgba(0,0,0,.80);
 }
 div.indiv-proj-img.bandmeeter-comp{
-  margin-top: -1.139em;
-  padding: .8em;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: white;
 }
 div.indiv-proj-img.empathy{
@@ -544,8 +608,10 @@ div.indiv-proj-img.bandmeeter-sketch{
   margin-top: -1.2em;
 }
 div.indiv-proj-img.final-sitemap h3{
-  padding-bottom: 1em;
-  padding-top: 1em;
+  margin: 0;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  font-size: 1.2em;
 }
 div.indiv-proj-img.wires h3{
   margin-top: 0;
@@ -564,6 +630,18 @@ div.indiv-proj-img.mockup h3{
   padding-top: 1.5em;
   margin-top: 2.5em;
 }
+div.indiv-proj-img.persona.ux h3{
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+div#site-design.ts-design h2{
+  margin: 0;
+  font-size: 1.6em;
+  line-height: 1.5;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
 div.indiv-proj-img.bandmeeter-sitemap-img{
   padding: .5em;
   margin-bottom: 1.5em;
@@ -571,21 +649,65 @@ div.indiv-proj-img.bandmeeter-sitemap-img{
 div.indiv-proj-img.bandmeeter-sitemap-img h3{
   padding-bottom: 1em;
 }
+div.indiv-proj-img.cards.tablet-hide h3{
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+div.indiv-proj-img.sitemap.tablet-hide{
+  margin: 0;
+}
+div.indiv-proj-img.sitemap.tablet-hide h3{
+  margin: 0;
+  padding-top: 1em;
+}
+div.indiv-proj-img.ts-wires h3{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    letter-spacing: .02em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+div.indiv-proj-img.ts-wires{
+  padding-bottom: 1em;
+}
+
 /*--------------------------------------------------------------------*/
 
 div#define, div#bandmeeter-persona, div#bandmeeter-emp, div#scope, div#bandmeeter-sitemap{
   background-color: rgba(158,158,158,.15);
-  margin-top: -.2em;
-  padding-top: 1em;
+  margin-top: 0;
+  padding-top: 0;
 }
 div#define h2, div#wireframes h2, div#future-plans h2, div#bandmeeter-persona h2, div#bandmeeter-emp h2, div#scope h2{
-  font-size: 1.8em;
-  letter-spacing: .3em;
+  letter-spacing: .2em;
   background-color: rgba(158,158,158,.25);
-  margin-top: -.4em;
-  line-height: 2.8em;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
   color: rgba(0,0,0,.65);
   text-transform: uppercase;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+div#define.bandmeeter-define ul.bm-define-ul{
+    font-size: 1em;
+    margin: 0;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+div#define.bandmeeter-define h3{
+    padding-top: 1em;
+    border: 2px dotted #999;
+    margin: .5em;
+}
+div#wireframes p.ts-wires-p{
+  padding-top: 1em;
 }
 div#site-design h2{
   font-size: 1.8em;
@@ -594,13 +716,18 @@ div#site-design h2{
   color: rgba(255,255,255,.85);
   line-height: 2.8em;
 }
+div#scope h3.scope-h3{
+    border: 2px dotted #999;
+    margin: .5em;
+    padding-top: 1em;
+}
 
 div#bandmeeter-persona h2{
-  line-height: 1.8;
-  padding-bottom: .5em;
-  margin-top: -.5em;
-  padding-top: 1.25em;
-  letter-spacing: .5em;
+  line-height: 1.4;
+  padding-bottom: 1em;
+  margin: 0;
+  padding-top: 1em;
+  letter-spacing: .2em;
   background-color: rgba(158,158,158,.25);
   color: rgba(0,0,0,.65);
 }
@@ -611,19 +738,24 @@ div#future-plans h2{
   margin-top: .8em;
 }
 div#define p, div#site-design p, div#wireframes p, div#future-plans p, div#bandmeeter-persona p, div#bandmeeter-emp p, div#scope p, div#bandmeeter-sitemap p{
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: left;
   padding-left: 1em;
   padding-right: 1em;
-  padding-bottom: 1em;
-  padding-top: .5em;
-  line-height: 1.5;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  line-height: 1.3;
   letter-spacing: .02em;
+  margin: 0;
 }
 div#trueSpirit-mobile.indiv-proj-wrapper h4{
+  margin: 0;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
-
+div#sketching{
+  margin: 0;
+}
 /*----- hide tablet projects on home screen -------*/
 .tablet-wrapper{ display: none; }
 
@@ -641,13 +773,15 @@ footer {
 img{
   width: 100%;
   height: auto;
+  padding-top: 1em;
 }
 div.tools h3 span img, div.methods h3 span img{
   width: 10%;
   opacity: .6;
 }
 div.indiv-proj-img.final-sitemap img{
-    border-bottom: 3em solid rgba(255, 255, 255, 0);
+  margin: 0;
+  padding: 1em;
 }
 div.indiv-proj-img.comp-analy img{
   width: 90%;
