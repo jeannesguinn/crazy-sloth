@@ -624,11 +624,20 @@ div.indiv-proj-img.bandmeeter-persona-img{
 }
 div.indiv-proj-img.mockup{
   background-color: transparent;
-  margin-top: -1.25em;
 }
 div.indiv-proj-img.mockup h3{
   padding-top: 1.5em;
   margin-top: 2.5em;
+}
+div.indiv-proj-img.mockup.bm-mockup h3{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+div.indiv-proj-img.mockup.bm-mockup img{
+  margin-top: -3em;
+  margin-bottom: -3em;
+  width: 80%;
 }
 div.indiv-proj-img.persona.ux h3{
   margin: 0;
@@ -813,6 +822,7 @@ div#index-teaser.clearfix p{
 }
 div.mobile-wrapper a{
   text-decoration: none;
+  color: mediumturquoise;
 }
 h1#about-me{
   margin: 0;
