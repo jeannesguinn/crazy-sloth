@@ -83,14 +83,16 @@ div#content h1.ux-proj-h1{
 div#trueSpirit.ux-proj-wrapper, div#bandmeeter.ux-proj-wrapper, div#tmh-project.ux-proj-wrapper, div#sb-project.ux-proj-wrapper, div#cc-project.ux-proj-wrapper{
     width: 40%;
     margin-left: 5%;
-    border: 10px groove rgba(158,158,158,.7);
+    border: 10px groove rgba(158,158,158,.75);
     background-color: white;
     padding: 2%;
     margin-top: 0;
     float: left;
     padding-bottom: 5em;
-    max-height: 499.13px;
+    max-height: 500px;
+    max-width: 500px;
     transition: opacity ease-in-out 1s;
+    overflow: hidden;
 }
 div#trueSpirit.ux-proj-wrapper:hover, div#bandmeeter.ux-proj-wrapper:hover, div#tmh-project.ux-proj-wrapper:hover, div#sb-project.ux-proj-wrapper:hover, div#cc-project.ux-proj-wrapper:hover{
     opacity: .85;
@@ -100,12 +102,12 @@ div#bandmeeter.ux-proj-wrapper{
   margin-bottom: 0;
   margin-left: 10%;
 }
-div.ux-deco-wrapper.clearfix{
+
+div#ux-projects.ux-deco-wrapper.clearfix, div#web-projects-2.ux-deco-wrapper.clearfix, div#web-projects.ux-deco-wrapper.clearfix{
   width: 80%;
   margin-left: 10%;
-  max-height: 499.13px;
-  overflow: hidden;
 }
+
 div#cc-project.ux-proj-wrapper{
   margin-top: 2em;
 }
