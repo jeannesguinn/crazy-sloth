@@ -858,6 +858,24 @@ div#contact-mobile.contact-wrapper p a{
 div#contact-mobile.contact-wrapper p a:hover{
   color: rgba(255, 255, 255, .7);
 }
+div#contact-mobile.contact-wrapper{
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h1#contact-mobile{
+    margin-bottom: 0;
+    padding-top: 2em;
+    font-size: 1.6em;
+    letter-spacing: .25em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+h1#contact-mobile.contact-proj{
+  padding-bottom: 0;
+}
 
 /*------- VISIBILITY -----------*/
 

@@ -167,11 +167,12 @@ div.tools.crowdCareTools div.tools-inset{
     margin-left: 25%;
 }
 div.tools.crowdCareTools{
-  margin: 2.5%;
+  width: 60%;
+  margin-left: 20%;
 }
 div.tools.crowdCareTools div.tools-inset h3{
   text-align: left;
-  padding-bottom: 2em;
+  padding-bottom: .5em;
   padding-left: 1em;
 }
 div.tools.crowdCareTools ul{
@@ -191,14 +192,26 @@ div.col-2.clearfix div.tools, div.col-2.clearfix div.methods{
   font-size: 1.3em;
 }
 div.col-2.clearfix div.tools{
-  padding-left: 1.5em;
+  padding-left: 2.5em;
+  width: 45%;
+  margin-left: 5%;
 }
 div.col-2.clearfix div.methods{
-  padding-right: 1.5em;
+  padding-right: 2.5em;
+  width: 45%;
+  margin-left: 5%;
+  margin-top: 0;
 }
 div.col-2.clearfix{
-  padding-top: 3em;
+  padding-top: 1em;
   padding-bottom: 3em;
+  background-color: white;
+}
+div.col-2.clearfix div.tools h3, div.col-2.clearfix div.methods h3{
+  font-size: 1.2em;
+}
+div.col-2.clearfix div.tools ul li, div.col-2.clearfix div.methods ul li{
+  font-size: 1em;
 }
 
 
@@ -208,19 +221,21 @@ div#define.crowdCare-define{
   margin-top: 0;
 }
 div#define.crowdCare-define h2{
-  font-size: 2em;
+  font-size: 1.8em;
   letter-spacing: .15em;
   background-color: rgba(0,0,0,.5);
   color: rgba(255,255,255, .9);
   margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 div#define.crowdCare-define h3, div#define.bandmeeter-define h3{
-  font-size: 1.8em;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.6em;
   letter-spacing: .15em;
   padding-bottom: 1em;
-  border: 1px solid #999;
+  padding-top: 1em;
+  border: 1px dotted #999;
   margin: 1em;
 }
 
@@ -228,16 +243,21 @@ div#define.crowdCare-define p, div#define.bandmeeter-define p{
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-top: 1em;
-  font-size: 1.4em;
-  line-height: 1.6;
+  font-size: 1.2em;
+  line-height: 1.4;
   text-align: left;
+}
+div#define.crowdCare-define p.erd-p{
+  padding-top: 1em;
 }
 div#define.crowdCare-define p{
   color: rgba(0,0,0,.5);
+  padding-top: 0;
   padding-bottom: 2em;
 }
 div#define.bandmeeter-define p{
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+  text-align: center;
 }
 div#define.bandmeeter-define{
   margin-top: 0;
@@ -255,6 +275,10 @@ div#define.bandmeeter-define ul{
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
+div#define.bandmeeter-define ul.bm-define-ul{
+  width: 40%;
+  margin-left: 30%;
+}
 div#define.bandmeeter-define ul li{
   font-size: 1.4em;
   line-height: 1.6;
@@ -270,7 +294,7 @@ div#approach.moscow h2{
 }
 div#approach.moscow div.moscow-tble{
     margin: 2.5%;
-    background: aliceblue;
+    background: white;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 3em;
@@ -313,13 +337,13 @@ div#discovery h3, div#site-design h3, div#sketching h3{
   margin: 1em;
 }
 div#discovery p, div#site-design p, div#wireframes p, div#prototypes p{
-  font-size: 1.4em;
+  font-size: 1.2em;
   padding-left: 1.5em;
   padding-right: 1.5em;
   margin-bottom: 0;
-  padding-top: 1.25em;
-  padding-bottom: 3em;
-  line-height: 1.5;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.4;
 }
 div#discovery.bandmeeter-discovery-wrapper{
   background-color: rgba(96,125,139,.72);
@@ -331,6 +355,12 @@ div#discovery.bandmeeter-discovery-wrapper p.bm-discovery-p1{
 }
 div#discovery.bandmeeter-discovery-wrapper p.bm-discovery-p2{
   padding-bottom: 0;
+}
+div#discovery.api h2{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.6em;
+  line-height: 1.4;
 }
 /*---------------Site Design Section-------------------*/
 div#site-design{
@@ -428,7 +458,8 @@ div#scope h3, div#bandmeeter-sitemap h3{
   font-size: 1.8em;
   letter-spacing: .15em;
   padding-bottom: 1em;
-  border: 1px solid #999;
+  padding-top: 1em;
+  border: 2px dotted #999;
   margin: 1em;
 }
 
@@ -481,8 +512,8 @@ div.indiv-proj-img.persona.crowdCareERD h3, div.indiv-proj-img.persona h3{
 }
 div.indiv-proj-img h3{
     margin: 0;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 div.indiv-proj-img.persona.ux h3{
   background-color: white;
@@ -508,9 +539,9 @@ div.indiv-proj-img.persona{
   padding-top: 0;
 }
 div.indiv-proj-img.cards h3{
-  background-color: rgba(0,0,0,.1);
-  padding-top: .5em;
-  padding-bottom: .5em;
+  background-color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   font-size: 1.2em;
   letter-spacing: .1em;
 }
@@ -525,7 +556,9 @@ div.indiv-proj-img.mockup img{
   padding: 2em;
 }
 div.indiv-proj-img.mockup.bm-mockup img{
-  width: 80%;
+  width: 60%;
+  margin-top: -7em;
+  margin-bottom: -3em;
 }
 div.indiv-proj-img.mockup h3{
   font-size: 1.3em;
@@ -553,7 +586,7 @@ div.indiv-proj-img.bandmeeter-sketch{
 }
 div.indiv-proj-img.bandmeeter-sitemap-img{
   margin-bottom: 0;
-  padding-bottom: 3em;
+  padding: 3em;
 }
 div.indiv-proj-img.bandmeeter-sitemap-img h3{
   padding-top: 1.5em;
@@ -592,11 +625,14 @@ div#future-plans h2{
   font-size: 2em;
 }
 div#future-plans p{
-  text-align: center;
-  font-size: 1.3em;
-  line-height: 1.6;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.4;
   padding-left: 1.5em;
   padding-right: 1.5em;
+}
+div#future-plans p.tmh-future-p1{
+  padding-bottom: 0;
 }
 
 /*----------------Show the Tablet Projects View on Home Page ---------*/
@@ -698,6 +734,7 @@ div#index-teaser.clearfix p{
 }
 div.mobile-wrapper a{
   text-decoration: none;
+  color: mediumturquoise;
 }
 h1#about-me{
   margin: 0;
@@ -728,11 +765,26 @@ div#about-mobile.about-wrapper p{
     margin-top: -1.5em;
     padding-bottom: 3em;
 }
+
 div#contact-mobile.contact-wrapper{
   width: 60%;
   margin-left: 20%;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+h1#contact-mobile{
+    margin-bottom: 0;
+    padding-top: 2em;
+    font-size: 1.6em;
+    letter-spacing: .25em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+div#contact-mobile.contact-wrapper p{
+  padding-bottom: 2em;
+}
+h1#contact-mobile.contact-proj{
+  padding-bottom: 0;
 }
 
 /*----- FOOTER -----*/
