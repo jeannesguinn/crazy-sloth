@@ -55,6 +55,16 @@ nav ul li{
 
 /*-----CONTENT -----*/
 
+div.sm-logo{
+  display: block;
+  position: relative;
+  opacity: .4;
+}
+div.sm-logo img{
+  width: 80%;
+  padding-left: 10%;
+}
+
 /*----- UX Projects Teaser Page-----*/
 div#content.ux-projects-page{
   background-color: rgba(158,158,158,.4);

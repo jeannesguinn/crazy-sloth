@@ -9,8 +9,9 @@
     min-width: 600px;
   }
 
-
-
+  div.sm-logo{
+  display: none;
+}
 
 /*-----HEADER -----*/
 
