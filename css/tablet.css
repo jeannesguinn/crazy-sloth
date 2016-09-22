@@ -40,14 +40,17 @@ div#container header hgroup h2{
 
 /*-----NAVigation -----*/
   nav#top{
-    font-size: 1.5em;
-    letter-spacing: .25em;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
   }
   nav{
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
-  nav ul li { }
+  nav ul li {
+    padding-right: .6em;
+  }
   nav ul li a {}
 
 
