@@ -67,7 +67,7 @@ div.sm-logo img{
 
 /*----- UX Projects Teaser Page-----*/
 div#content.ux-projects-page{
-  background-color: rgba(158,158,158,.4);
+  background-color: rgba(158,158,158,.1);
   padding-bottom: 3em;
   max-width: 1600px;
 }
@@ -83,7 +83,7 @@ div#content h1.ux-proj-h1{
 div#trueSpirit.ux-proj-wrapper, div#bandmeeter.ux-proj-wrapper, div#tmh-project.ux-proj-wrapper, div#sb-project.ux-proj-wrapper, div#cc-project.ux-proj-wrapper{
     width: 40%;
     margin-left: 5%;
-    border: 10px groove rgba(158,158,158,.75);
+    border: 5px groove rgba(158,158,158,.95);
     background-color: white;
     padding: 2%;
     margin-top: 0;
@@ -91,11 +91,13 @@ div#trueSpirit.ux-proj-wrapper, div#bandmeeter.ux-proj-wrapper, div#tmh-project.
     padding-bottom: 5em;
     max-height: 500px;
     max-width: 500px;
-    transition: opacity ease-in-out 1s;
+    transition: opacity ease-in-out .8s;
+    transition: color ease-in-out .8s;
     overflow: hidden;
 }
 div#trueSpirit.ux-proj-wrapper:hover, div#bandmeeter.ux-proj-wrapper:hover, div#tmh-project.ux-proj-wrapper:hover, div#sb-project.ux-proj-wrapper:hover, div#cc-project.ux-proj-wrapper:hover{
-    opacity: .85;
+    opacity: .95;
+    background-color: rgba(255,255,255,.9);
 }
 div#bandmeeter.ux-proj-wrapper{
   margin-top: 0;
