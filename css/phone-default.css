@@ -169,11 +169,14 @@ div#about-mobile.about-wrapper{
 }
 div#about-mobile.about-wrapper p{
   color: #222;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   padding-bottom: 2em;
   margin-top: 0;
   margin-bottom: 0;
+}
+div#about-mobile.about-wrapper p.about-p1{
+  padding-bottom: 1em;
 }
 div#approach h2{
   margin: 0;
